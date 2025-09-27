@@ -1,0 +1,27 @@
+---
+title: Quarto Journal extensions
+format:
+  typst
+---
+| Name       | Description                                                                                                           | Author             |
+| ---        | ---                                                                                                                   | ---                |
+| acm        | Association of Computing Machinery (ACM)                                                                               | quarto-journals    |
+| acs        | American Chemical Society (ACS)                                                                                        | quarto-journals    |
+| aea        | Working paper (preprint) format for the field of Economics                                                             | hchulkim           |
+| agu        | American Geophysical Union (AGU)                                                                                       | quarto-journals    |
+| apaquarto  | Quarto template for American Psychological Association, Seventh Edition (APA7) style                                   | W. Joel Schneider  |
+| apsr       | American Political Science Review (APSR)                                                                               | christopherkenny   |
+| arxiv      | Style and template for paper preprints (based on NIPS style)                                                           | mikemahoney218     |
+| asm        | Quarto template for ASM mSystems.                                                                                      | kelly-sovacool     |
+| biophysical| Biophysical Journal (BJ)                                                                                               | quarto-journals    |
+| computo    | Template for contribution to the Computo journal.                                                                      | computorg          |
+| elsevier   | Format for journals published by Elsevier                                                                              | quarto-journals    |
+| ieee       | Institute of Electrical and Electronics Engineers (IEEE)                                                               | dfolio             |
+| jasa       | American Statistical Association (ASA)                                                                                 | quarto-journals    |
+| jss        | Journal of Statistical Software (JSS)                                                                                  | quarto-journals    |
+| mdpi       | Quarto Template for MDPI journals                                                                                      | ihrke              |
+| nature     | Quarto Template for Springer Nature Submissions                                                                        | christopherkenny   |
+| plos       | Public Library of Science (PLOS)                                                                                       | quarto-journals    |
+| sportrxiv  | Manuscripts for the SportRxiv preprint server.                                                                         | smnnlt             |
+| tandf      | Taylor and Francis style.                                                                                              | mikemahoney218     |
+| aaai2016   | Quarto template for submissions to the Association for Advancement of Artificial Intelligence (AAAI)                  | Selbosh            |
