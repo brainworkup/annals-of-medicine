@@ -20,3 +20,5 @@ docs/
 .Renviron
 _arxiv/
 media/image1.png
+index.qmd
+media/

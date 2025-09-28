@@ -272,7 +272,7 @@ Adults</article-title>
             <p>A diagram of a diagram AI-generated content may be
       incorrect.</p>
           </caption>
-          <graphic mimetype="image" mime-subtype="png" xlink:href="media/image1.png"/>
+          <graphic mimetype="image" mime-subtype="png" xlink:href="media/Figure_1_Logic_Model.png"/>
         </fig>
         <p>Notes: ADHD attention deficit hyperactivity disorder, KQ key
     question</p>
@@ -1648,8 +1648,9 @@ Adults</article-title>
       studies reported on rater agreement, costs, or concordance between
       diagnostic settings. Results for key outcomes are synthesized in
       the Summary of Findings table (Table 3).</p>
-          <p><named-content id="_Toc193750156" content-type="anchor"/>3.2.5
-      Neuroimaging</p>
+        </sec>
+        <sec id="neuroimaging">
+          <title>Neuroimaging</title>
           <p>Five studies evaluated
       neuroimaging.<sup>48, 56, 136, 157, 161</sup> Studies used brain
       perfusion single-photon emission computed tomography
@@ -1684,8 +1685,9 @@ Adults</article-title>
       the studies reported on costs or concordance of diagnostic results
       between different clinical settings. Results for key outcomes are
       synthesized in the Summary of Findings table (Table 3).</p>
-          <p><named-content id="_Toc193750157" content-type="anchor"/>3.2.6
-      EEG</p>
+        </sec>
+        <sec id="eeg">
+          <title>EEG</title>
           <p>Twelve studies evaluated EEG (electroencephalogram) data used
       to distinguish ADHD from other clinical conditions or neurotypical
       developing
@@ -1718,8 +1720,9 @@ Adults</article-title>
       not report on rater agreement, costs, or concordance with
       diagnoses from other settings. Results for key outcomes are
       synthesized in the Summary of Findings table (Table 3).</p>
-          <p><named-content id="_Toc193750158" content-type="anchor"/>3.2.7
-      Biomarker</p>
+        </sec>
+        <sec id="biomarkers">
+          <title>Biomarkers</title>
           <p>Five studies evaluated biomarkers other than EEG or
       neuroimaging-based indicators.<sup>49, 79, 88, 138, 150</sup>
       Studies evaluated very different markers, including genetic
@@ -1751,8 +1754,9 @@ Adults</article-title>
       report on rater agreement in interpreting the variables, costs, or
       concordance between settings. Results for key outcomes are
       synthesized in the Summary of Findings table (Table 3).</p>
-          <p><named-content id="_Toc193750159" content-type="anchor"/>3.2.8
-      Clinician Tool</p>
+        </sec>
+        <sec id="clinician-tool">
+          <title>Clinician Tool</title>
           <p>Three studies reported on a clinician interview or
       questionnaire that was assessed for congruence with an external
       reference standard.<sup>100, 121, 123</sup> Studies evaluated the
@@ -1925,8 +1929,9 @@ Adults</article-title>
       anxiety.<sup>77, 94, 135, 141</sup> One study suggested that
       participants with ADHD and depression reported higher levels of
       anxiety.<sup>64</sup></p>
-          <p><named-content id="_Toc193750161" content-type="anchor"/>3.2.10
-      Key Question 1 Summary of Findings</p>
+        </sec>
+        <sec id="key-question-1-summary-of-findings">
+          <title>Key Question 1 Summary of Findings</title>
           <p>Despite the large number of studies, many did not report on the
       exact number of true positives, true negatives etc. The most
       common metrics were the author reported sensitivity. Given that
@@ -1962,983 +1967,54 @@ Adults</article-title>
       3. Summary of Findings Table Comparative Performance, Performance
       of Combinations, and Performance of Individual Tools against a
       Reference Standard</p>
-          <table-wrap>
-            <table>
-              <colgroup>
-                <col width="7%"/>
-                <col width="64%"/>
-                <col width="15%"/>
-                <col width="6%"/>
-                <col width="7%"/>
-              </colgroup>
-              <thead>
-                <tr>
-                  <th>
-                    <p>
-                      <bold>Key question</bold>
-                    </p>
-                    <p>
-                      <bold>Outcome</bold>
-                    </p>
-                    <p>
-                      <bold>Comparison or Test</bold>
-                    </p>
-                  </th>
-                  <th>
-                    <bold>Contributing studies</bold>
-                  </th>
-                  <th>
-                    <bold>Results of the primary studies</bold>
-                  </th>
-                  <th>
-                    <bold>Reasons for downgrading</bold>
-                  </th>
-                  <th>
-                    <bold>Strength of Evidence and Conclusion</bold>
-                  </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative clinical misdiagnosis</p>
-                    <p>Combinations vs self-report</p>
-                  </td>
-                  <td>2 studies<sup>98, 154</sup></td>
-                  <td>Conflicting results: 1 study reported a 16%
-              misdiagnosis rate for the ASRS compared to 18% for a
-              combination of variables,<sup>98</sup> while 1 study
-              reported a misdiagnosis rate of 39% for the CAARS-S
-              compared to 17% for a combination of self and observer
-              reports<sup>154</sup></td>
-                  <td>Inconsistency (conflicting results)</td>
-                  <td>Insufficient for comparative statements between
-              tools</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative clinical misdiagnosis</p>
-                    <p>Combinations vs neuropsychological tests</p>
-                  </td>
-                  <td>1 study<sup>123</sup></td>
-                  <td>Favors combination: 1 study reported a clinical
-              misdiagnosis rate of 17% for a combination from multiple
-              sources compared to 33% for a neuropsychological
-              test<sup>123</sup></td>
-                  <td>Inconsistency (no replication)</td>
-                  <td>Insufficient for comparative statements between
-              tools</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative clinical misdiagnosis</p>
-                    <p>Self-report vs clinician tools</p>
-                  </td>
-                  <td>2 studies<sup>98, 100</sup></td>
-                  <td>Favors self-reports: 1 study reported a 16% clinical
-              misdiagnosis rate for the ASRS compared to 25% for
-              clinician rating tool;<sup>98</sup> another study reported
-              a 31% misdiagnosis rate for the CAARS-S compared to 48%
-              for the MINI<sup>100</sup></td>
-                  <td>Study limitation (studies assessed different
-              tests)</td>
-                  <td>Low for lower clinical misdiagnosis rate in
-              self-report compared to clinician tool</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative clinical misdiagnosis</p>
-                    <p>Self-report vs neuropsychological tests</p>
-                  </td>
-                  <td>2 studies<sup>98, 145</sup></td>
-                  <td>Conflicting results: 1 study reported a 16%
-              misdiagnosis rate for the ASRS compared to 26% for a
-              CPT;<sup>98</sup> 1 study reported a 47% misdiagnosis rate
-              for the BADDS compared to 14% for the
-              C-CPT<sup>100</sup></td>
-                  <td>Inconsistency (conflicting results)</td>
-                  <td>Insufficient for comparative statements between
-              tools</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative sensitivity</p>
-                    <p>Combination vs self-report</p>
-                  </td>
-                  <td>2 studies<sup>98, 154</sup></td>
-                  <td>Conflicting results: 1 study reported a sensitivity of
-              a combination of 91% (corresponding specificity 82%) vs
-              76% for the ASRS (corresponding specificity
-              84%),<sup>98</sup> 1 study reported a sensitivity of a
-              combination of 43% (corresponding specificity 83%) vs 65%
-              for the CAARS-S (corresponding specificity
-              61%);<sup>154</sup></td>
-                  <td>Inconsistency (conflicting results)</td>
-                  <td>Insufficient for comparative statements between
-              tools</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative sensitivity</p>
-                    <p>Combination vs neuropsychological tests</p>
-                  </td>
-                  <td>3 studies<sup>78, 98, 123</sup></td>
-                  <td>Favors combination: Estimates ranged for a combination
-              from 94% (corresponding specificity 84%) vs QbTest 84%
-              (corresponding specificity 80%)<sup>78</sup> to 90% for a
-              combination (corresponding specificity 83%) vs a CPT test
-              with 80% (corresponding specificity
-              67%)<sup>123</sup></td>
-                  <td>Study limitation (compared different tests and
-              combinations)</td>
-                  <td>Low for higher sensitivity when using combinations of
-              tests compared to neuropsychological tests</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative sensitivity</p>
-                    <p>Self vs parent report</p>
-                  </td>
-                  <td>2 studies<sup>65, 122</sup></td>
-                  <td>Conflicting results: 1 study reported a sensitivity of
-              89% for the BAARS (corresponding specificity 30%) vs BAARS
-              parent rating 60% (corresponding specificity
-              77%);<sup>65</sup> 1 study reported a sensitivity of 57%
-              for CAARS-S (corresponding specificity 81%) vs 94% for a
-              parent rating (corresponding specificity
-              57%)<sup>122</sup></td>
-                  <td>Inconsistency (conflicting results)</td>
-                  <td>Insufficient for comparative statements between
-              tools</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative sensitivity</p>
-                    <p>Self-report vs neuropsychological tests</p>
-                  </td>
-                  <td>2 studies<sup>98, 145</sup></td>
-                  <td>Favors self-report: 1 study reported a sensitivity of
-              92% for the BADDS (corresponding specificity 33%) vs 47%
-              for the C-CPT (corresponding specificity
-              86%);<sup>145</sup> 1 study reported 76% for the ASRS
-              (corresponding specificity 84%) vs 30% for a CPT
-              (corresponding specificity 74%)<sup>98</sup></td>
-                  <td>Study limitation (compared different tests and
-              combinations)</td>
-                  <td>Low for higher sensitivity for self-reports compared
-              to neuropsychological tests</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative sensitivity</p>
-                    <p>Self-report vs clinician tool</p>
-                  </td>
-                  <td>2 studies<sup>98, 100</sup></td>
-                  <td>No difference: 1 study reported a sensitivity of 83%
-              for CAARS-S (corresponding specificity 69%) vs 83% for
-              MINI (corresponding specificity 52%);<sup>100</sup> 1
-              study reported 76% for the ASRS (corresponding specificity
-              84%) vs CAARS-O sensitivity of 76% (corresponding
-              specificity 75%)<sup>98</sup></td>
-                  <td>Study limitation (compared different tests and
-              combinations)</td>
-                  <td>Low for no difference in sensitivity between
-              self-reports and clinician tools</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative specificity</p>
-                    <p>Combination vs self-report</p>
-                  </td>
-                  <td>2 studies<sup>98, 154</sup></td>
-                  <td>Conflicting results: 1 study reported a specificity of
-              83% for a combination (corresponding sensitivity 43%) vs
-              61% for the CAARS-S (corresponding sensitivity
-              65%);<sup>154</sup> 1 study reported a specificity of 82%
-              for a combination (corresponding sensitivity 91%) vs 84%
-              for the ASRS (corresponding sensitivity
-              76%)<sup>98</sup></td>
-                  <td>Inconsistency (conflicting results)</td>
-                  <td>Insufficient for comparative statements between
-              tools</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative specificity</p>
-                    <p>Combination vs neuropsychological tests</p>
-                  </td>
-                  <td>3 studies<sup>78, 98, 123</sup></td>
-                  <td>Favors combination: Estimates ranged from 84% for a
-              combination (corresponding sensitivity 94%) vs 80% for the
-              QbTest (corresponding sensitivity 84%)<sup>78</sup> to 83%
-              for a combination (corresponding sensitivity 90%
-              (corresponding sensitivity 80%) vs 67% for
-              CPT<sup>123</sup></td>
-                  <td>Study limitation (compared different tests and
-              combinations)</td>
-                  <td>Low for higher specificity in combination tests
-              compared to neuropsychological tests</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative specificity</p>
-                    <p>Self vs parent report</p>
-                  </td>
-                  <td>2 studies<sup>65, 122</sup></td>
-                  <td>Conflicting results: 1 study reported a specificity of
-              81% for the CAARS-S (corresponding sensitivity 57%) vs 57%
-              for the CAARS-P (corresponding sensitivity
-              94%);<sup>122</sup> 1 study reported a specificity of 30%
-              for the BAARS self-report (corresponding sensitivity 89%)
-              vs 77% for the BAARS parent report (corresponding
-              sensitivity 60%)<sup>65</sup></td>
-                  <td>Inconsistency (conflicting results)</td>
-                  <td>Insufficient for comparative statements between
-              tools</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative specificity</p>
-                    <p>Self-report vs neuropsychological tests</p>
-                  </td>
-                  <td>2 studies<sup>98, 145</sup></td>
-                  <td>Conflicting results: 1 study reported a specificity of
-              84% for the ASRS (corresponding sensitivity 76%) vs 74%
-              for a CPT (corresponding sensitivity 30%);<sup>98</sup> 1
-              study reported a specificity of 33% for the BADDS
-              (corresponding sensitivity 92%) vs 86% for the C-CPT
-              (corresponding sensitivity 47%)<sup>145</sup></td>
-                  <td>Inconsistency (conflicting results)</td>
-                  <td>Insufficient for comparative statements between
-              tools</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative specificity</p>
-                    <p>Self-report vs clinician tool</p>
-                  </td>
-                  <td>2 studies<sup>98, 100</sup></td>
-                  <td>Favors self-report: 1 study reported specificity of
-              84% for the ASRS (corresponding sensitivity 76%) vs 75%
-              for the CAARS-O (corresponding sensitivity
-              76%);<sup>98</sup> 1 study reported a specificity of 69%
-              for the CAARS-S (corresponding sensitivity 83%) vs 52% for
-              the MINI (corresponding sensitivity
-              83%)<sup>100</sup></td>
-                  <td>Study limitation (compared different tests and
-              combinations)</td>
-                  <td>Low for favoring self-reports over clinician
-              tools</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative administration and scoring time</p>
-                  </td>
-                  <td>0 studies</td>
-                  <td>N/A</td>
-                  <td>N/A</td>
-                  <td>Insufficient for comparative statements between
-              tools</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative inter-rater reliability</p>
-                  </td>
-                  <td>0 studies</td>
-                  <td>N/A</td>
-                  <td>N/A</td>
-                  <td>Insufficient for comparative statements between
-              tools</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative costs</p>
-                  </td>
-                  <td>0 studies</td>
-                  <td>N/A</td>
-                  <td>N/A</td>
-                  <td>Insufficient for comparative statements between
-              tools</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Comparative diagnostic concordance of primary care
-              provider with specialist</p>
-                  </td>
-                  <td>0 studies</td>
-                  <td>N/A</td>
-                  <td>N/A</td>
-                  <td>Insufficient for comparative statements between
-              tools</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Combination</p>
-                    <p>Combining self and informant symptom ratings,
-              demographic variables, neuropsychological assessments
-              and/or EEG data to diagnose ADHD</p>
-                    <p>Clinical misdiagnosis</p>
-                  </td>
-                  <td>3 studies<sup>78, 98, 123</sup></td>
-                  <td>Reported clinical false positive rate ranged from 16%
-              in a study combining self-ratings and QbTest data to
-              distinguish ADHD from Asperger’s syndrome<sup>78</sup> to
-              18% in a study combining multiple self-reports and an
-              observer report to distinguish from
-              aggression<sup>98</sup></td>
-                  <td>Study limitation (cannot be replicated based on
-              reported detail)</td>
-                  <td>Low for fair clinical false positive rate</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Combination</p>
-                    <p>Combining self and informant symptom ratings,
-              demographic variables, neuropsychological assessments
-              and/or EEG data to diagnose ADHD</p>
-                    <p>Sensitivity</p>
-                  </td>
-                  <td>6 studies<sup>65, 78, 98, 123, 132, 154</sup></td>
-                  <td>Sensitivity ranged from 100% using a Bayesian
-              probability model integrating 3 diagnostic tools (WURS and
-              EEG variables, corresponding specificity 100%,
-              n=12)<sup>132</sup> to 43% combining CAARS self and
-              observer reports (corresponding specificity
-              83%)<sup>154</sup> with the majority of studies reporting
-              good sensitivity</td>
-                  <td>Imprecision</td>
-                  <td>Low for good sensitivity</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Combination</p>
-                    <p>Combining self and informant symptom ratings,
-              demographic variables, neuropsychological assessments
-              and/or EEG data to diagnose ADHD</p>
-                    <p>Specificity</p>
-                  </td>
-                  <td>6 studies<sup>65, 78, 98, 123, 132, 154</sup></td>
-                  <td>Specificity ranged from 100% using a Bayesian
-              probability model integrating 3 diagnostic tools (WURS and
-              EEG variables, corresponding sensitivity 100%,
-              n=12)<sup>132</sup> to 63% in a prediction model that
-              combined BAARS parent and self-ratings of current and
-              childhood ADHD diagnosis (corresponding specificity
-              89%)<sup>65</sup> with the majority of studies reporting
-              acceptable sensitivity</td>
-                  <td>Imprecision</td>
-                  <td>Low for acceptable specificity</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Self-report</p>
-                    <p>Clinical misdiagnosis</p>
-                  </td>
-                  <td>23
-              studies<sup>46, 50, 51, 62, 77, 87, 98, 100-102, 106, 108, 109, 111, 112, 122, 123, 130, 131, 141, 145, 153, 163</sup></td>
-                  <td>Reported clinical false positive rates ranged from 12%
-              differentiating from depression or generalized anxiety
-              using the WURS<sup>130</sup> to 90% in students with
-              academic or psychological difficulties using the
-              CAARS-S<sup>101</sup></td>
-                  <td>Imprecision (values ranged widely)</td>
-                  <td>Low for substantial clinical false positive rate</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Self-report</p>
-                    <p>Sensitivity</p>
-                  </td>
-                  <td>40
-              studies<sup>46, 50, 51, 58, 62-65, 70, 71, 77, 86, 87, 92, 94, 98, 100-102, 105, 106, 108, 109, 111, 112, 122, 123, 130, 131, 135, 141, 142, 145, 152-155, 159, 163, 164</sup></td>
-                  <td>Sensitivity ranged from 100% (CAARS-S corresponding
-              specificity 10%<sup>101</sup> or ASRS-v1.1 with
-              specificity not reported)<sup>58</sup> to 14% (CAARS-S,
-              corresponding specificity 92%)<sup>86</sup></td>
-                  <td>Imprecision (range from excellent to poor)</td>
-                  <td>Low for good sensitivity</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Self-report</p>
-                    <p>Specificity</p>
-                  </td>
-                  <td>37
-              studies<sup>50, 51, 62-65, 70, 71, 77, 86, 87, 92, 94, 98, 100-102, 105, 106, 108, 109, 111, 112, 122, 123, 130, 131, 141, 142, 145, 152-155, 159, 163, 164</sup></td>
-                  <td>Specificity ranged from 99% (CBS corresponding
-              specificity 90%)<sup>71</sup> to 10% (CAARS-S,
-              corresponding specificity 100%)<sup>101</sup></td>
-                  <td>Imprecision (range from excellent to poor)</td>
-                  <td>Low for good specificity</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Self-report</p>
-                    <p>Administration and scoring time</p>
-                  </td>
-                  <td>1 study<sup>105</sup></td>
-                  <td>1 study explicitly stated that the newly developed
-              ADHD rating scale took about 15 minutes to
-              complete<sup>105</sup></td>
-                  <td>Inconsistency (no replication)</td>
-                  <td>Low for short administration and scoring time</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Self-report</p>
-                    <p>Rater agreement</p>
-                  </td>
-                  <td>8
-              studies<sup>50, 65, 98, 100, 108, 109, 154, 163</sup></td>
-                  <td>
-                    <p>1 study reported on kappa and found 0.006 agreement
-              between WURS-brief vs DIVA rating;<sup>50</sup> 1 study
-              reported 89% agreement between self and informant
-              report;<sup>108</sup></p>
-                    <p>1 study reported an ICC of 0.43 for self vs parent
-              BAARS-IV ratings;<sup>65</sup> 6 studies reporting Pearson
-              self-observer correlations reported ranges from r 0.24 for
-              a CAARS subscale<sup>154</sup> to r 0.58 for CAARS-S:SV vs
-              MINI report<sup>100</sup></p>
-                  </td>
-                  <td>Inconsistency (reporting on different measures and
-              questionnaires)</td>
-                  <td>Moderate for limited rater agreement</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Peer report</p>
-                    <p>Clinical misdiagnosis</p>
-                  </td>
-                  <td>1 study<sup>98</sup></td>
-                  <td>Reported clinical false positive rates was 48% in an
-              inpatient psychiatric hospital unit for the
-              CAARS-O<sup>98</sup></td>
-                  <td>Inconsistency (no replication)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Peer report</p>
-                    <p>Sensitivity</p>
-                  </td>
-                  <td>3 studies<sup>65, 98, 122</sup></td>
-                  <td>Sensitivity varied widely from 94% (CAARS:P,
-              corresponding specificity 57%)<sup>122</sup> to 60%
-              (BAARS-IV, corresponding specificity
-              77%)<sup>65</sup></td>
-                  <td>Inconsistency (reporting on different questionnaires),
-              imprecision (range from excellent to poor)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Peer report</p>
-                    <p>Specificity</p>
-                  </td>
-                  <td>3 studies<sup>65, 98, 122</sup></td>
-                  <td>Specificity ranged from 77% (BAARS-IV, corresponding
-              sensitivity 60%)<sup>65</sup> to 57% sensitivity (CAARS:P,
-              corresponding sensitivity 94%)<sup>122</sup></td>
-                  <td>Inconsistency (reporting on different questionnaires),
-              imprecision (range from fair to poor)</td>
-                  <td>Low for limited specificity</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Peer report</p>
-                    <p>Rater agreement</p>
-                  </td>
-                  <td>1 study<sup>65</sup></td>
-                  <td>1 study reported ICCs ranging from 0.43 to0.31 for
-              BAARS-IV subscales<sup>65</sup></td>
-                  <td>Inconsistency (no replication), study limitation
-              (subscales only)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Neuropsychological tests</p>
-                    <p>Clinical misdiagnosis</p>
-                  </td>
-                  <td>9
-              Studies<sup>45, 55, 78, 95, 98, 119, 123, 140, 145</sup></td>
-                  <td>Reported clinical false positive rates ranged from 11%
-              in a study using Stroop test variables for participants
-              referred for neuropsychological evaluation<sup>95</sup> to
-              60% in a model based on QbTest with motion tracking
-              variables<sup>144</sup></td>
-                  <td>Inconsistency (studies used different combinations of
-              variables), Study limitation (unclear if conditions can be
-              replicated</td>
-                  <td>Low for substantial clinical false positive rate</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Neuropsychological tests</p>
-                    <p>Sensitivity</p>
-                  </td>
-                  <td>21
-              studies<sup>45, 55, 59, 66, 68, 69, 78, 95, 98, 104, 114, 118, 119, 123, 134, 137, 140, 144-146, 158</sup></td>
-                  <td>Reported sensitivity ranged from 93% (corresponding
-              specificity 100%) integrating AQT variables<sup>118</sup>
-              to 17% for an individual subtest of the C-CPT
-              (corresponding specificity 90%)<sup>146</sup></td>
-                  <td>Imprecision (wide range of results)</td>
-                  <td>Low for acceptable sensitivity</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Neuropsychological tests</p>
-                    <p>Specificity</p>
-                  </td>
-                  <td>21
-              studies<sup>45, 55, 59, 66, 68, 69, 78, 95, 98, 104, 114, 118, 119, 123, 134, 137, 140, 144-146, 158</sup></td>
-                  <td>Reported specificity ranged from 100% (corresponding
-              sensitivity 93%) integrating AQT variables<sup>118</sup>
-              to 40% for a model integrating QbTest Plus variables
-              (corresponding sensitivity 88%)<sup>144</sup></td>
-                  <td>Imprecision (wide range of results)</td>
-                  <td>Low for acceptable specificity</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Neuropsychological tests</p>
-                    <p>Administration and scoring time</p>
-                  </td>
-                  <td>15
-              studies<sup>45, 55, 59, 66, 68, 69, 75, 78, 99, 104, 114, 123, 144, 145, 151</sup></td>
-                  <td>There was some variation, but 7 studies estimated the
-              duration of the test to be 20
-              minutes<sup>45, 55, 66, 69, 78, 123, 144</sup></td>
-                  <td>Study limitation (scoring / data interpretation not
-              mentioned)</td>
-                  <td>Low for short administration time</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Neuroimaging</p>
-                    <p>Clinical misdiagnosis</p>
-                  </td>
-                  <td>2 studies<sup>48, 136</sup></td>
-                  <td>1 study reported a 3% clinical false positive rate for
-              a large psychiatric database;<sup>48</sup> 1 study
-              reported a 24% rate in a sample with various psychiatric
-              and neuropsychiatric disorders using 3D thresholded
-              SPECT<sup>136</sup></td>
-                  <td>Imprecision (range from low to substantial)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Neuroimaging</p>
-                    <p>Sensitivity</p>
-                  </td>
-                  <td>5 studies<sup>48, 56, 136, 157, 161</sup></td>
-                  <td>Performance ranged from 100% (SPECT, corresponding
-              specificity 97%)<sup>48</sup> to 54% in a clinical sample
-              (SPECT, corresponding specificity 76%)<sup>136</sup></td>
-                  <td>Imprecision (wide range of values)</td>
-                  <td>Low for acceptable sensitivity</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Neuroimaging</p>
-                    <p>Specificity</p>
-                  </td>
-                  <td>5 studies<sup>48, 56, 136, 157, 161</sup></td>
-                  <td>Performance ranged from 97% (SPECT, corresponding
-              sensitivity 100%)<sup>48</sup> to 65% (functional MRI,
-              corresponding sensitivity 91%)<sup>161</sup></td>
-                  <td>Imprecision (wide range of values)</td>
-                  <td>Low for acceptable specificity</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Neuroimaging</p>
-                    <p>Administration and scoring time</p>
-                  </td>
-                  <td>1 study<sup>136</sup></td>
-                  <td>1 study reported a procedure duration of 15-20
-              minutes<sup>136</sup></td>
-                  <td>Inconsistency (no replication, very specific
-              test)</td>
-                  <td>Low for short duration</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Neuroimaging</p>
-                    <p>Rater agreement</p>
-                  </td>
-                  <td>1 study<sup>48</sup></td>
-                  <td>1 study reported kappa 0.79 for agreement in visual
-              interpretation of scans<sup>48</sup></td>
-                  <td>Inconsistency (no replication, very specific
-              task)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>EEG</p>
-                    <p>Clinical misdiagnosis</p>
-                  </td>
-                  <td>1 study<sup>89</sup></td>
-                  <td>1 study reported a clinical false positive rate of
-              3.8% using auditory brainstem response profiling
-              test<sup>89</sup></td>
-                  <td>Inconsistency (no replication, very specific
-              test)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>EEG</p>
-                    <p>Sensitivity</p>
-                  </td>
-                  <td>10
-              studies<sup>54, 80, 96, 97, 115, 116, 125, 126, 135, 139</sup></td>
-                  <td>Reported sensitivity ranged from 100% (machine
-              learning assisted, corresponding specificity
-              87%)<sup>91</sup> to 67% (resting state EEG, corresponding
-              specificity 83%)<sup>125</sup></td>
-                  <td>Imprecision (values ranged widely)</td>
-                  <td>Low for acceptable sensitivity</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>EEG</p>
-                    <p>Specificity</p>
-                  </td>
-                  <td>10
-              studies<sup>54, 80, 96, 97, 115, 116, 125, 126, 135, 139</sup></td>
-                  <td>Reported specificity ranged from 95% (event-related
-              potential, corresponding specificity 86%)<sup>54</sup> to
-              37% (resting state EEG, corresponding specificity
-              73%)<sup>96</sup></td>
-                  <td>Imprecision (values ranged widely)</td>
-                  <td>Low for good specificity</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>EEG</p>
-                    <p>Administration and scoring time</p>
-                  </td>
-                  <td>6 studies<sup>54, 91, 96, 97, 116, 125</sup></td>
-                  <td>Reported session duration ranged from 6
-              minutes<sup>96</sup> to 26 minutes<sup>116</sup></td>
-                  <td>Imprecision (substantial variation)</td>
-                  <td>Low for short duration</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Biomarkers</p>
-                    <p>Clinical misdiagnosis</p>
-                  </td>
-                  <td>2 studies<sup>88, 150</sup></td>
-                  <td>1 study reported a clinical false positive rate of 17%
-              in an eye tracker study in sample of participants with
-              conduct disorder;<sup>88</sup> 1 study reported a rate of
-              75% in a MFNU study in a psychiatric outpatient clinic
-              (some participants had subthreshold
-              ADHD)<sup>150</sup></td>
-                  <td>Imprecision (value ranged widely), Inconsistency (very
-              different biomarkers, only 1 study each)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Biomarkers</p>
-                  </td>
-                  <td>4 studies<sup>49, 79, 88, 150</sup></td>
-                  <td>Performance ranged from 98% (MFNU, corresponding
-              specificity 25%)<sup>150</sup> to 80% (eye tracker,
-              corresponding specificity 83%)<sup>88</sup></td>
-                  <td>Imprecision (values varied), Inconsistency (no
-              replication of the same marker)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Biomarker</p>
-                    <p>Specificity</p>
-                  </td>
-                  <td>4 studies<sup>49, 79, 88, 150</sup></td>
-                  <td>Performance ranged from 83% (eye tracker,
-              corresponding sensitivity 80%)<sup>88</sup> to 25% (MFNU,
-              corresponding sensitivity 98%)<sup>150</sup></td>
-                  <td>Imprecision (values ranged from acceptable to
-              poor)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Biomarker</p>
-                    <p>Administration and scoring time</p>
-                  </td>
-                  <td>1 study<sup>88</sup></td>
-                  <td>1 study reported that the eye tracking task took about
-              15 minutes<sup>88</sup></td>
-                  <td>Inconsistency (no replication, very specific
-              task)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Clinician tools</p>
-                    <p>Clinical misdiagnosis</p>
-                  </td>
-                  <td>3 studies<sup>100, 121, 123</sup></td>
-                  <td>Reported clinical false positive rates ranged from 9%
-              for the MINI-Plus in an addiction treatment
-              center<sup>121</sup> to 48% for the
-              MINI<sup>100</sup></td>
-                  <td>Inconsistency (different tools), Imprecision (values
-              ranged widely), Study limitation (likely dependent on
-              specific patient population)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Clinician tool</p>
-                    <p>Sensitivity</p>
-                  </td>
-                  <td>3 studies<sup>100, 121, 123</sup></td>
-                  <td>Performance ranged from 83% (corresponding specificity
-              52%)<sup>100</sup> to 73% (corresponding specificity
-              90%)<sup>123</sup></td>
-                  <td>Imprecision (values varied), Inconsistency (different
-              tools), Study limitation (likely dependent on patient
-              population)</td>
-                  <td>Low for fair sensitivity</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>Clinician tool</p>
-                    <p>Specificity</p>
-                  </td>
-                  <td>3 studies<sup>100, 121, 123</sup></td>
-                  <td>Performance ranged from 91% (corresponding sensitivity
-              75%)<sup>121</sup> to 52% (corresponding sensitivity
-              83%)<sup>100</sup></td>
-                  <td>Imprecision (values varied), Inconsistency (different
-              tools), Study limitation (likely dependent on specific
-              patient population)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>All tests</p>
-                    <p>Costs</p>
-                  </td>
-                  <td>0 studies</td>
-                  <td>N/A</td>
-                  <td>N/A</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1</p>
-                    <p>All tests</p>
-                    <p>Concordance primary care and specialty</p>
-                  </td>
-                  <td>0 studies</td>
-                  <td>N/A</td>
-                  <td>N/A</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1a</p>
-                    <p>Effect of clinical setting</p>
-                    <p>All outcomes</p>
-                  </td>
-                  <td>N/A</td>
-                  <td>N/A</td>
-                  <td>Inconsistency (lack of primary care studies)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1a</p>
-                    <p>Effect of comparator sample</p>
-                    <p>Clinical misdiagnosis</p>
-                  </td>
-                  <td>N/A</td>
-                  <td>4 studies noted that tests were less effective when
-              distinguishing ADHD from other clinical conditions (rather
-              than the general population) due to overlapping
-              symptoms<sup>64, 102, 145, 150</sup></td>
-                  <td>Study limitation (not all tests addressed)</td>
-                  <td>Low for higher risk of clinical misdiagnosis in
-              clinical samples*</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1a</p>
-                    <p>Effect of ADHD presentation</p>
-                    <p>Sensitivity</p>
-                  </td>
-                  <td>N/A</td>
-                  <td>Conflicting results across 4
-              studies<sup>70, 94, 101, 141</sup></td>
-                  <td>Inconsistency (conflicting results)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1a</p>
-                    <p>Effect of age of participants and age at diagnosis</p>
-                    <p>Sensitivity and specificity</p>
-                  </td>
-                  <td>N/A</td>
-                  <td>1 study reported that sensitivity and specificity were
-              higher in younger adults (18-44) compared to older adults
-              (31-44)<sup>94</sup></td>
-                  <td>Inconsistency (no replication)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1a</p>
-                    <p>Effect of participant sex</p>
-                    <p>Sensitivity and specificity</p>
-                  </td>
-                  <td>N/A</td>
-                  <td>Conflicting results across 5
-              studies<sup>55, 56, 89, 100, 155, 163</sup></td>
-                  <td>Inconsistency (conflicting results)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1a</p>
-                    <p>Effect of comorbidities</p>
-                    <p>Sensitivity</p>
-                  </td>
-                  <td>N/A</td>
-                  <td>Conflicting results: while 2 studies reported no
-              effect of comorbidities on sensitivity,<sup>101, 153</sup>
-              1 study reported lower sensitivity,<sup>106</sup> and 2
-              studies reported that diagnostic performance was
-              unaffected by comorbidities<sup>55, 102</sup></td>
-                  <td>Inconsistency (conflicting results)</td>
-                  <td>Insufficient</td>
-                </tr>
-                <tr>
-                  <td>
-                    <p>KQ1a</p>
-                    <p>Effect of comorbidities</p>
-                    <p>Specificity</p>
-                  </td>
-                  <td>N/A</td>
-                  <td>3 studies reported challenges for
-              specificity,<sup>66, 101, 153</sup> 1 study reported
-              higher specificity in participants with
-              comorbidities,<sup>106</sup> 2 studies reported that
-              diagnostic performance was unaffected by
-              comorbidities;<sup>55, 102</sup> 4studies pointed out the
-              high prevalence of comorbid conditions such as depression
-              and anxiety.<sup>77, 94, 135, 141</sup></td>
-                  <td>Study limitation (not all tests addressed)</td>
-                  <td>Low for lower specificity in participants with
-              comorbidities</td>
-                </tr>
-              </tbody>
-            </table>
-          </table-wrap>
-          <p>Notes: We broadly categorized performance as follows: low
-      (&lt;5%), fair (&lt;20-5%), substantial (20-60%) clinical
-      misdiagnosis rate; limited (&lt;80%), poor (&lt;69%), fair
-      (70-79%), acceptable (80-89%), good (90-95%), excellent (96-100%)
-      sensitivity and specificity; short (&lt;30 minutes) administration
-      and scoring time; limited rater agreement (kappa &lt;0.8,
-      correlations &lt;0.40); *clinical samples defined as composed of
-      participants undergoing diagnostic workup (as opposed to general,
-      unselected, and/or neurotypical participant samples)</p>
-          <p>Abbreviations: ADHD Attention-Deficit/Hyperactivity Disorder;
-      AQT Adult ADHD Quick Test; ASRS Adult ADHD Self-Report Scale;
-      BAARS Barkley Adult ADHD Rating Scale; BADDS Brown
-      Attention-Deficit Disorder Scales; C-CPT Conners continuous
-      performance test; CAARS-O Conners Adult ADHD Rating
-      Scale-Observer-Report; CAARS-P Conners Adult ADHD Rating
-      Scale-Peer-Report; CAARS-S Conners Adult ADHD Rating
-      Scale-Self-Report; CBS Current Behavior Scale; CPT continuous
-      performance test; DIVA Diagnostic Interview for ADHD in Adults;
-      EEG electroencephalogram; ICC intra-class correlation; GRADE
-      Grading of Recommendations Assessment, Development and Evaluation;
-      KQ key question, MINI Mini-International Neuropsychiatric
-      Interview; MFNU Motor Function Neurological Assessment; MRI
-      magnetic resonance imaging; N/A not applicable or not available;
-      QbTest quantified behavioral test; SPECT single photon emission
-      computed tomography; vs versus; WURS Wender Utah Rating Scale</p>
-          <p>The included studies did not report on the impact for
-      participants of being correctly or incorrectly diagnosed. Studies
-      reported only on the performance of the tests but not the effect a
-      diagnosis (or a misdiagnosis) had on participants or similar.</p>
-          <p>None of the included studies reported on unintended
-      consequences, adverse events, adverse effects, or side effects of
-      the diagnostic tools, including blood-based biomarker, EEG,
-      neuroimaging, and neuropsychological test studies.</p>
-          <p>Finally, we identified numerous studies reporting on the
-      performance of tests for detecting feigning ADHD. All studies also
-      reporting also on the diagnostic performance of diagnosing ADHD
-      are included in the respective test sections earlier in this
-      chapter and the evidence tables C1 to C8. Studies used subjective
-      tests such as self-report questionnaires as well as objective
-      tests such as neuropsychological test batteries. Results of all
-      studies reporting on feigning ADHD are shown in the evidence table
-      in the appendix (Appendix Table C9).</p>
+          <sec id="table-goes-here">
+            <title>Table goes here</title>
+            <p>Notes: We broadly categorized performance as follows: low
+        (&lt;5%), fair (&lt;20-5%), substantial (20-60%) clinical
+        misdiagnosis rate; limited (&lt;80%), poor (&lt;69%), fair
+        (70-79%), acceptable (80-89%), good (90-95%), excellent
+        (96-100%) sensitivity and specificity; short (&lt;30 minutes)
+        administration and scoring time; limited rater agreement (kappa
+        &lt;0.8, correlations &lt;0.40); *clinical samples defined as
+        composed of participants undergoing diagnostic workup (as
+        opposed to general, unselected, and/or neurotypical participant
+        samples)</p>
+            <p>Abbreviations: ADHD Attention-Deficit/Hyperactivity Disorder;
+        AQT Adult ADHD Quick Test; ASRS Adult ADHD Self-Report Scale;
+        BAARS Barkley Adult ADHD Rating Scale; BADDS Brown
+        Attention-Deficit Disorder Scales; C-CPT Conners continuous
+        performance test; CAARS-O Conners Adult ADHD Rating
+        Scale-Observer-Report; CAARS-P Conners Adult ADHD Rating
+        Scale-Peer-Report; CAARS-S Conners Adult ADHD Rating
+        Scale-Self-Report; CBS Current Behavior Scale; CPT continuous
+        performance test; DIVA Diagnostic Interview for ADHD in Adults;
+        EEG electroencephalogram; ICC intra-class correlation; GRADE
+        Grading of Recommendations Assessment, Development and
+        Evaluation; KQ key question, MINI Mini-International
+        Neuropsychiatric Interview; MFNU Motor Function Neurological
+        Assessment; MRI magnetic resonance imaging; N/A not applicable
+        or not available; QbTest quantified behavioral test; SPECT
+        single photon emission computed tomography; vs versus; WURS
+        Wender Utah Rating Scale</p>
+            <p>The included studies did not report on the impact for
+        participants of being correctly or incorrectly diagnosed.
+        Studies reported only on the performance of the tests but not
+        the effect a diagnosis (or a misdiagnosis) had on participants
+        or similar.</p>
+            <p>None of the included studies reported on unintended
+        consequences, adverse events, adverse effects, or side effects
+        of the diagnostic tools, including blood-based biomarker, EEG,
+        neuroimaging, and neuropsychological test studies.</p>
+            <p>Finally, we identified numerous studies reporting on the
+        performance of tests for detecting feigning ADHD. All studies
+        also reporting also on the diagnostic performance of diagnosing
+        ADHD are included in the respective test sections earlier in
+        this chapter and the evidence tables C1 to C8. Studies used
+        subjective tests such as self-report questionnaires as well as
+        objective tests such as neuropsychological test batteries.
+        Results of all studies reporting on feigning ADHD are shown in
+        the evidence table in the appendix (Appendix Table C9).</p>
+          </sec>
         </sec>
       </sec>
     </sec>
@@ -3025,479 +2101,516 @@ Adults</article-title>
   instead recommended for clinical assessment to characterize
   neuropsychological functioning in adults already diagnosed with
   ADHD.</p>
-      <p><named-content id="_Toc201103574" content-type="anchor"/>4.1
-  Comparative diagnostic performance of tools to diagnose ADHD among
-  adults</p>
-      <p>We identified over 100 studies that assessed putative tools to aid
-  the diagnosis of ADHD in adults. Although this is a substantial number
-  of studies, we deemed the strength of evidence for the reported
-  performance measures across each of categories of diagnostic tools to
-  be generally low because of large performance variability across
-  studies, the use of widely varying non-ADHD comparison populations,
-  reporting practices that precluded meta-analyses across studies, and
-  statistical analyses that were often exploratory across a large number
-  of variables.</p>
-      <p><named-content id="_Toc201103575" content-type="anchor"/>4.1.1
-  Measures Reported for Diagnostic Performance</p>
-      <p>As outlined in detail in the introduction, diagnosing Adult ADHD is
-  complex and in addition to issues surrounding the reference standard,
-  this review also highlighted limitations associated with reported
-  measures. Most studies reported sensitivity (true positive rate),
-  specificity (true negative rate), and diagnostic accuracy (how many
-  are correctly diagnosed). Although these are standard performance
-  statistics for diagnostic classification, they have the important
-  limitation of being dependent on an arbitrary threshold that is
-  applied to scores from a diagnostic tool that defines whether
-  individual participants do or do not have ADHD – for example, the
-  percent of symptoms endorsed, the numerical score on a rating of
-  symptom severity or measure of cognitive performance, or the power in
-  an EEG frequency band. Studies that use the same diagnostic tool often
-  apply different thresholds to the scores from that tool, which will
-  necessarily alter the reported sensitivities and specificities.
-  Comparing sensitivities and specificities across studies that use
-  differing thresholds is therefore like comparing apples and
-  oranges.</p>
-      <p>Moreover, sensitivity and specificity, because of how they are
-  defined and calculated, inherently have an inverse relationship to one
-  another, such that raising the diagnostic threshold for a score on a
-  tool will reduce sensitivity (i.e., it will identify fewer people who
-  truly have ADHD) but increase specificity (i.e., falsely identify
-  fewer people as having ADHD who do not in fact have it), and vice
-  versa for lowering the diagnostic threshold. This inherent trade-off
-  between sensitivity and specificity establishes an operational limit
-  for plots of sensitive versus specific as shown in the figures along
-  the y = -x line, i.e., from the upper left to lower right corner of
-  the plot, which would identify diagnostic tests that perform at no
-  better than chance. Tools in the upper right quadrant of that plot
-  improve in overall performance as they approach the upper right
-  corner, or perfect accuracy (100% true positives and 100% true
-  negatives). Identified research shows that, for categories of tools
-  such as rating scales and neuropsychological test measures that have
-  the most data points, many studies perform little better than chance
-  (they lie close to the y = -x line; studies that lie to the left of it
-  perform worse than chance) and, moreover, because they lie on or near
-  the diagonal, the findings suggest that variability in performance
-  likely derives from differences in the thresholds applied to the
-  scores from the diagnostic tools. Unfortunately, adjusting sensitivity
-  and specificity through use of the same diagnostic threshold is
-  impossible without having the scores from the tool for each study
-  participant. Reports of diagnostic accuracy suffer the same limitation
-  of depending inherently on the diagnostic threshold applied to the
-  tool’s score.</p>
-      <p>One index of diagnostic performance that addresses these
-  limitations of sensitivity and specificity metrics is AUC (area under
-  the curve), a measure from receiver operating characteristic (ROC)
-  curves that was first developed by engineers during World War II to
-  detect enemy objects in the battlefield. An ROC curve is a plot of
-  sensitivity vs specificity across the entire range of possible
-  diagnostic thresholds. The area under this ROC curve provides a
-  single, overall index of performance that is independent of diagnostic
-  threshold. AUC values range of 0.5 (corresponding to the y=x line)
-  indicate that the tool provides no information above chance for
-  diagnostic classification. Values of 1.0 (corresponding to the
-  vertical x=0 line) indicate that the tests performs perfectly,
-  correctly classifying all participants who have ADHD as having it and
-  all non-ADHD participants as not having it. Intermediate AUC values of
-  90 to 100 are commonly classified as <italic>excellent</italic>
-  performance; 80 to 90 as <italic>good</italic>; 70 to 80
-  <italic>fair</italic>; 60 to 70 <italic>poor</italic>; and 50 to 60 as
-  <italic>failed</italic>. Studies of diagnostic tools are increasingly
-  reporting performance in terms of AUC, in addition to the more
-  traditional measures of sensitivity and specificity.</p>
-      <p>A minority of studies reported other measures of diagnostic
-  performance, including positive predictive value (PPV) and negative
-  predictive value (NPV). They are calculated as PPV = True Positives /
-  (True Positives + False Positives), and NPV = True Negatives / (True
-  Negatives + False Negatives). PPV is the probability that a person
-  with a positive test result has the condition; NPV is the probability
-  that a person with a negative test result does not have the condition.
-  False positives will increase and false negatives will decline with
-  lower base rates in the population – if no one has the condition, all
-  positive results are false, and all negative results are correct then
-  PPV will decrease to 0.00 (no one with a positive test result has the
-  condition) and NPV will increase to 1.00 - everyone with a negative
-  test result does not have the condition (and the reverse is true if
-  everyone has the condition). Thus, these metrics represent the utility
-  of diagnostic tools in a particular setting that has a specific base
-  rate of ADHD in population sampled. They will differ across varying
-  diagnostic settings because the base rates of ADHD differ across those
-  settings (the base rate may be, for example, 60-70% in a clinic where
-  patients assessed for suspected ADHD, it may be 50% in a study
-  designed to have equal numbers of ADHD and healthy control
-  participants, or it may be 5% in an epidemiological sample of the
-  general population). Very few studies that we identified for inclusion
-  reported PPV and NPV values, generally without providing accurate and
-  independent estimates of the base rates of ADHD in the study’s
-  specific diagnostic setting.</p>
-      <p><named-content id="_Toc201103576" content-type="anchor"/>4.1.2
-  The Importance of the Comparator Sample</p>
-      <p>Measures of diagnostic accuracy will vary with the characteristics
-  of the non-ADHD participants from which the diagnostic tool is
-  attempting to discriminate the study’s ADHD participants. For example,
-  if the non-ADHD participants are patients who have more symptoms that
-  overlap those of ADHD, as occurs commonly with patients who have
-  autism, depression, or anxiety, false positives will tend to be higher
-  than in studies where the non-ADHD participants have few or no
-  symptoms that overlap, as happens when the comparator group is a
-  sample of neurotypical controls.</p>
-      <p>In real-world clinical practice, clinicians rarely if ever need to
-  determine whether a patient has ADHD or is healthy and symptom-free
-  (the clinical equivalent of a neurotypical control in many research
-  studies). The patient has presented to the clinician with some kind of
-  clinical problem, or they would not be seeing the clinician. That
-  problem likely has symptoms that overlap those of ADHD, or ADHD would
-  not be considered as a clinical possibility. For these reasons, the
-  much more clinically relevant studies of performance for tools that
-  aid the diagnosis of ADHD are those that employ a comparator group of
-  participants who have mental health problems and symptoms that may
-  overlap those of ADHD. The
-  <italic><underline>most</underline></italic> clinically relevant
-  comparison are from studies in which all participants were presenting
-  for evaluation of possible ADHD, because real-world clinicians are
-  asked to diagnose ADHD in patients who are presenting for an ADHD
-  assessment.<sup>33</sup> These comparator samples will tend to produce
-  more false positives in diagnostic testing, thus lowering specificity
-  metrics.<sup>168</sup></p>
-      <p><named-content id="_Toc201103577" content-type="anchor"/>4.1.3
-  Rating Scales</p>
-      <p>Numerous studies reported on performance for at least one
-  self-report measure in diagnosing ADHD (Figure 5). The number of
-  different scales was large (17), but the most commonly reported
-  measures were the CAARS, ASRS, and WURS. Studies that used the same
-  measure often applied different diagnostic cut-offs to the score the
-  measure generates. Self-reports were generally able to correctly rule
-  out ADHD, with good but rarely excellent performance and substantial
-  variation across studies.<sup>71, 86, 101</sup></p>
-      <p>Examination of the plotted sensitivity versus specificity suggests
-  that sensitivity and specificity measures are similarly distributed
-  around the y=x line, indicating that self-rating scales are similarly
-  likely to under-identify individuals who truly have ADHD (reflecting
-  sensitivity) and to over-identify individuals who do not have ADHD
-  (reflecting specificity).<sup>168</sup> Closer examination also
-  suggests that the measures of CAARS performance tended to lie along
-  the y = -x line or close to it, suggesting poorer performance
-  independent of the specific diagnostic threshold used. Measures of the
-  ASRS tended to cluster closer to the upper right corner, suggesting
-  overall better performance, independent of the diagnostic threshold
-  used. Only three studies reported performance for peer ratings, but
-  the characteristics of the studies preclude interpretation.</p>
-      <p><named-content id="_Toc201103578" content-type="anchor"/>4.1.4
-  Neuropsychological Tests</p>
-      <p>A considerable number of studies have been published that report on
-  the performance of various neuropsychological tests to diagnose ADHD
-  in adults. Most of these studies assessed performance of a wide range
-  of measures in a highly exploratory way, without specific hypotheses
-  for which measures would perform best. All the studies reported on
-  performance of some form of CPT, but the CPT, like most of the
-  individual neuropsychological tests, itself generates many measures,
-  and which of those measures was reported and performed best varied
-  widely across studies. These approaches to the analysis and reporting
-  of results greatly complicate comparison of performance across studies
-  and the interpretation and generalization of findings. The best
-  performing of the neuropsychological tests are reported here, which
-  risks a positive bias for assessing overall performance of
-  neuropsychological tests, but which nevertheless seems to be the most
-  efficient way to report findings.</p>
-      <p>With all these caveats, results indicated a substantial false
-  negative rate in most studies.<sup>95, 144</sup> Sensitivity varied
-  widely, from excellent for the AQT<sup>118</sup> to very
-  poor,<sup>146</sup> with most sensitivity measures in the fair range
-  or poorer, indicating that neuropsychological tests often missed the
-  diagnosis in those who truly had ADHD. Specificity likewise varied
-  widely, from perfect specificity for the AQT<sup>118</sup> to poor
-  specificity for QbTest Plus variables,<sup>144</sup> though in
-  general, specificity was fair at best, indicating that tests often
-  incorrectly identified non-ADHD controls as having ADHD.</p>
-      <p>Comparing sensitivity and specificity measures across categories of
-  diagnostic tools, neuropsychological tests do not seem to perform
-  better than self-report measures (self-report measures have more
-  frequent clusters near the upper right corner of the plots, indicating
-  better combinations of sensitivity and specificity). Recent systematic
-  reviews of the diagnostic utility of continuous performance measures
-  for adults with ADHD have concluded that these tests are vulnerable to
-  practice effects and the feigning of symptoms, and they alone do not
-  sufficiently dis­criminate persons who have ADHD from clinical
-  controls.<sup>38, 39</sup></p>
-      <p><named-content id="_Toc201103579" content-type="anchor"/>4.1.5
-  Other Diagnostic Tools</p>
-      <p>With a couple of exceptions, overall diagnostic performance of EEG
-  measures was fair to good for the dozen studies that reported them,
-  although, similar to the limitations of neuropsychological test
-  studies, the EEG measures varied widely across studies and were often
-  highly exploratory in assessing performance across many measures.
-  Measures, for example, ranged from resting state
-  EEG,<sup>96, 125</sup> to event-related potentials during
-  neuropsychological tasks,<sup>54, 115</sup> to EEG recordings during
-  transcranial magnetic stimulation.<sup>80</sup> Several of the studies
-  used machine learning or other techniques to combine various EEG
-  measures into a highly complex test measure that would be difficult or
-  impossible to replicate in future studies. Most employed a
-  non-clinical comparator sample, which likely contributed to the
-  reasonable performance measures. Sensitivities ranged from perfect
-  performance during a CPT and using machine learning-derived EEG
-  measure<sup>91</sup> to fair performance using resting state EEG
-  measures.<sup>125</sup> Specificity showed an even wider range from
-  excellent for event-related potential<sup>54</sup> to poor performance
-  in a study evaluating resting state EEG<sup>96</sup> but was generally
-  good in identified studies. Most clinical practices and even research
-  centers do not have EEG capability, let alone under the complex
-  testing conditions employed in these studies. The real-world
-  applicability of these measures is therefore currently extremely
-  limited.</p>
-      <p>The studies that assessed diagnostic performance for neuroimaging
-  measures used a wide range of imaging technologies, including
-  SPECT,<sup>48</sup> 3-D SPECT,<sup>136</sup> structural MRI,
-  DTI,<sup>56</sup> and resting state fMRI.<sup>157, 161</sup>
-  Limitations of these studies are similar to those for EEG measures,
-  with diagnostic test measures highly ad hoc and complex, precluding
-  generalizability and opportunities for replication. Comparator samples
-  were often non-clinical, and analyses were often exploratory across
-  multiple test measures. Sensitivities ranged from perfect in a large
-  retrospective cohort SPECT study<sup>48</sup> to poor in a SPECT
-  study<sup>136</sup> with a clinical comparator sample. Specificities
-  ranged from excellent in the retrospective SPECT study<sup>48</sup> to
-  fair in an fMRI study).<sup>161</sup> Also similar to EEG, the
-  real-world applicability of using neuroimaging methods to aid
-  diagnosis is limited by the practical challenges in acquiring the
-  imaging measures.</p>
-      <p>Five studies reported on performance of putative biomarkers in
-  diagnosing ADHD. Each used a different technology, including a genetic
-  marker,<sup>79</sup> eye tracking,<sup>88</sup> blood oxidative
-  status,<sup>138</sup> physiological data from a wearable
-  device,<sup>49</sup> and Motor Function Neurological Assessment
-  (MFNU).<sup>150</sup></p>
-      <p><named-content id="_Toc201103580" content-type="anchor"/>4.2
-  Direct Comparisons of Diagnostic Performance</p>
-      <p>Because measures of diagnostic performance, especially measures of
-  sensitivity and specificity, vary with the diagnostic threshold
-  applied to the score that the diagnostic tool generates, as well as
-  sample characteristics, interpreting differences in measures of
-  diagnostic performance across studies is exceedingly difficult. All
-  these differences in study characteristics undoubtedly contributed to
-  the scatter of data points in the plots of sensitivity versus
-  specificity shown in the figures; disentangling all of these effects
-  on measures of diagnostic performance across studies is
-  impossible.</p>
-      <p>For these reasons, studies that directly compare measures of
-  performance across diagnostic tools in the same sample of participants
-  are most valuable to identify better performing tools. We identified
-  11 such studies. Of those, two had only six participants each who had
-  ADHD<sup>100, 132</sup> and preclude interpretation. One study
-  reported performance metrics only for EEG measures.<sup>54</sup> Of
-  the remaining studies, seven were discriminating participants with
-  ADHD from participants with other clinical
-  conditions<sup>65, 78, 98, 122, 123, 145, 154</sup> and one was
-  discriminating from participants with a mix of patients and
-  neurotypical controls.<sup>119</sup> They all assessed performance of
-  self-rating scales for ADHD symptoms. Those that attempted to make
-  very difficult clinical discriminations reported the poorest
-  performance (e.g., ADHD+ASD vs ASD alone: sensitivity 57%, specificity
-  81%;<sup>122</sup> combined type ADHD vs predominantly Inattentive
-  ADHD: sensitivity 65%, specificity 61%).<sup>154</sup> The other
-  studies generally reported sensitivities ranging from the mid-70’s to
-  low 90’s, but those with the highest sensitivities had the lowest
-  specificities, in the high 20’s and low 30’s, as expected given the
-  inherent trade-off between sensitivity and specificity that depends on
-  the diagnostic threshold applied to scores from the rating scale. Peer
-  ratings were also assessed in three of the
-  studies:<sup>65, 98, 122</sup> one reported substantially lower
-  sensitivities but higher specificities than for the
-  self-ratings;<sup>65</sup> one reported performance comparable to
-  self-ratings; <sup>98</sup> and one reported substantially higher
-  sensitivity and specificity when using both an ADHD scale and an ASD
-  scale in discriminating ASD+ASD from ASD alone.<sup>122</sup>
-  Combining the self-ratings and peer ratings in two of these studies
-  yielded comparable sensitivity in one study,<sup>65</sup> improved
-  sensitivity in the other,<sup>98</sup> and improved specificity in
-  both, compared with self-ratings alone.</p>
-      <p>Neuropsychological measures were assessed in five of these
-  studies.<sup>78, 98, 119, 123, 145</sup> Sensitivities ranged from 30
-  percent (corresponding specificity 74%) <sup>98</sup>to 84 percent
-  (corresponding specificity 80%),<sup>78</sup> and specificities ranged
-  from 56 percent (corresponding sensitivity 73.3%)<sup>123</sup> to 86
-  percent (corresponding sensitivity 47%).<sup>145</sup> Generally,
-  however, performance of these as stand-alone measures was poorer than
-  for self-ratings, and studies were inconsistent in identifying which
-  of the numerous measures from the continuous performance measurement
-  (e.g., omission errors, commission errors, reaction time variability)
-  provided the best performance. Three of these studies assessed
-  diagnostic performance when combining self-ratings with continuous
-  performance measures.<sup>78, 119, 123</sup> One found substantially
-  better sensitivity than for the neuropsychological test alone and
-  better specificity than for the self-rating alone, one found better
-  sensitivity and specificity than for the continuous performance test
-  alone,<sup>78</sup> and one did not report sensitivity or specificity
-  for the combination.<sup>119</sup></p>
-      <p>These findings from head-to-head comparisons, taken together,
-  suggest that the combination of self-ratings, peer ratings, and
-  continuous performance test scores may one day prove more useful than
-  either measure alone in accurately diagnosing ADHD. Currently,
-  however, self-ratings combined with peer ratings offer the best
-  evidence for improving diagnostic performance over either rating
-  alone.</p>
-      <p><named-content id="_Toc193750164" content-type="anchor"/>4.3
-  Implications</p>
-      <p>Self-report scales are easy to use tools to aid the diagnosis of
-  ADHD in both primary and specialty care settings. They are prone,
-  however, to both false positive and false negative findings,
-  especially when used in a setting where adults present for evaluation
-  of suspected ADHD. A negative test is reassuring but not conclusive,
-  and it likely prompts in a patient complaining about ADHD symptoms an
-  assessment of current symptoms, as well as retrospective assessment of
-  symptoms earlier in childhood (when symptom expression may have been
-  more complete) from other sources – including spouses, significant
-  others, parents, siblings, and teacher comments in school records. A
-  negative test also prompts questions about other mental health
-  problems whose symptoms overlap those of ADHD, especially depression,
-  anxiety, substance abuse, stress, and trauma.</p>
-      <p>Self-report scales are also prone to false positives, most often
-  from the presence of one or more of these conditions with overlapping
-  symptoms. Therefore, assessing the validity of positive responses to
-  questions on the scale helps in deciding how likely the test result is
-  to be a true positive. Thus, patients with a positive test results
-  should elaborate on experiences of symptoms in their own words, noting
-  when the symptoms first began to discern if they were present in
-  childhood, reviewing the trajectory of the symptoms over time, the
-  settings or experiences that exacerbate them, and what kind of
-  functional impairment they produce, if any.<sup>16</sup> ADHD symptoms
-  in childhood can be assessed by asking patients and parents to
-  complete retrospective symptom reports on standard checklists, such as
-  the ADHD rating scale<sup>174</sup> or the Conners 3 rating
-  scale.<sup>175</sup> Similar to a negative test, positive tests also
-  raise questions about overlapping symptoms from other conditions.
-  Assessing symptoms of other conditions that can overlap with ADHD
-  symptoms can be done even in a busy clinical practice through the use
-  of existing scales for depression and anxiety (such as the
-  PHQ-9<sup>176</sup> and GAD-7<sup>177</sup>). It is critical to assess
-  whether positive responses truly represent ADHD or instead the
-  symptoms of another clinical condition.<sup>16</sup></p>
-      <p>Neuropsychological tests, including the CPT, are not routine in
-  diagnosing ADHD in adults, and both sensitivity and specificity for
-  these tests are on average lower than for self-report measures.
-  Certainly, the long and expensive batteries of traditional
-  neuropsychological testing will not aid diagnosis of ADHD, though they
-  may serve other clinical purposes. Prior reviews of CPT performance as
-  a diagnostic tool in adults with ADHD have yielded these same
-  conclusions.<sup>38, 39</sup> Whether the combination of a CPT with
-  self-report measures can improve diagnostic performance is at present
-  unclear. In addition, symptom validity tests and performance validity
-  tests can detect some invalid presentations in self-reports and
-  inadequate effort in neuropsychological tests and many experts have
-  recommended the use of these tools as part of a comprehensive
-  assessment of ADHD in adults.<sup>178-184</sup> Identified studies
-  varied regarding the inclusion of validity tests. In addition, an
-  individual’s effort during testing can fluctuate significantly over
-  the course of an assessment, and individuals differ in what cognitive
-  abilities they choose to exaggerate or feign
-  deficits.<sup>110, 185</sup></p>
-      <p>Finally, the quality of evidence for objective tests that are not
-  vulnerable to impression management such as EEG, neuroimaging, and
-  biomarkers, as tools to diagnose ADHD in adults is low. None of the
-  performance findings have been replicated, and no clinical
-  effectiveness studies have been conducted to assess use of these tools
-  in the real world to diagnose ADHD. From a practical perspective, very
-  few primary care or specialty mental health clinicians have access to
-  these technologies. Thus, these tools are not even remotely close to
-  being ready for clinical application to aid diagnosis, even though the
-  FDA has approved one EEG measure as a purported diagnostic
-  aid.<sup>186, 187</sup></p>
-      <p><named-content id="_Toc193981789" content-type="anchor"/>4.4
-  Strengths, Limitations, and Applicability</p>
-      <p>A strength of this review is its scope and inclusiveness -
-  publications did not have date restrictions, and they were not limited
-  to use of any pre-specified tools, which led to inclusion of novel
-  EEG, neuroimaging, and biomarker studies in the diagnosis of ADHD.
-  Nonetheless, this review was limited to diagnostic accuracy studies
-  and did not focus on psychometric considerations such as the validity
-  of symptoms supporting a diagnosis. In addition, we restricted the
-  review to English-language studies, which will have missed some tools
-  used locally outside of the U.S. and other English-speaking
-  countries.</p>
-      <p>The conclusions of this review are limited by the poor quality of
-  evidence for performance of every category of diagnostic tool and by
-  the paucity of reporting findings that would support meta-analysis
-  across studies, including AUCs, false positive and negative rates, and
-  the thresholds applied to scores from the diagnostic tools.
-  Furthermore, limiting to studies reporting on a reference standard
-  added focus to the review, but given the issues surrounding a clinical
-  diagnosis of ADHD in adults also needs to acknowledge that there is no
-  true and universally accepted gold standard in this research area.</p>
-      <p>Finally, several included studies reported multiple exclusions for
-  eligible participants, which hinders the generalizability of the
-  findings to patients seen in routine practice, in particular in
-  primary care. Furthermore, some studies used sophisticated and
-  resource-intense assessment methods, as well as advanced analytic
-  procedures to optimize diagnostic performance. Hence, diagnostic
-  performance may not translate from the favorable effects shown in the
-  documented research to real world practice and likely represent a
-  best-case scenario.</p>
-      <p><named-content id="_Toc193981790" content-type="anchor"/>4.5
-  Next Steps</p>
-      <p>Despite the limitations of studies thus far, it seems clear from
-  their findings that no single rating scale or neuropsychological test,
-  and probably no single neuroimaging algorithm or biomarker, will
-  provide the desired combination of high sensitivity and high
-  specificity in diagnosing adults who have ADHD in real-world settings,
-  where the clinical question is whether a given individual who is
-  suspected of having ADHD actually has it. The relatively few studies
-  that have directly compared the performance of diagnostic tools with
-  one another provide some early indication that the combination of
-  tools may yield may improve both sensitivity and specificity in
-  diagnosing ADHD compared with the use of any single tool alone. Future
-  studies should compare the performance of tools within and across
-  categories, both singly and in combination. The methods for optimally
-  combining measures across different tools should be made explicit and
-  have a clear rationale. Algorithms for combining measures that are
-  based on machine learning, neural networks, or other similar “black
-  box” technologies should be made publicly available to facilitate
-  validation, replication, and dissemination. Much more research is
-  needed to determine how to combine data optimally across informants or
-  tools.<sup>16, 33</sup></p>
-      <p>Future studies should move past the use of neurotypical comparator
-  groups, which have little or no real-world clinical relevance, and
-  instead assess diagnostic performance only in clinical samples.
-  Further, future studies should assess diagnostic performance in
-  clinically important participant subgroups, including subgroups
-  defined by age, sex, race, ethnicity, and the presence of disorders
-  that commonly co-occur with ADHD, if only to be able to say with more
-  confidence that there are no differences. We cannot assume that the
-  absence of research equates to the absence of evidence and we had to
-  note several times that the evidence was simply insufficient for more
-  concrete evidence statements. Because the diagnosis of ADHD requires
-  childhood onset, studies are needed to assess how best to assess and
-  validate the presence of symptoms in childhood.<sup>168</sup> It is
-  often difficult to obtain childhood educational and medical records
-  and adults’ recall of childhood symptoms is
-  limited.<sup>16, 168, 169, 188-193</sup> More research is also needed
-  on measures to detect invalid responses in completing self-report ADHD
-  rating scales and inadequate effort on neuropsychological
-  tests.<sup>33</sup></p>
-      <p>Future studies of diagnostic tools should report their findings in
-  much more detail to support meta-analyses across studies. This would
-  include reporting false positive and negative rates, the thresholds
-  applied to scores from the diagnostic tools, and any data manipulation
-  used to produce the finding. Studies should also report ROC analyses
-  to support comparisons of test performance across studies that are
-  independent of diagnostic thresholds. Studies should also make
-  available their individual-level data in public repositories to
-  support future efforts at replication, synthesis, and new
-  discovery.</p>
-      <p>Although currently available “objective” measures of neurocognitive
-  performance are not likely to be useful tools in diagnosing ADHD in
-  adults, continued search for and development of better objective,
-  performance-based measures is warranted. Candidate tools will need to
-  overcome the limitations identified for prior continuous performance
-  tests and other neuropsychological tests. New, better-performing tools
-  will need to correlated better with ADHD symptom ratings, have better
-  test-retest reliability, have fewer ceiling effects that likely
-  contribute to false negative diagnoses, and have greater ecological
-  validity – i.e., better simulate the effects of external and
-  environmental distractions that disrupt attention in everyday life.
-  <sup>33, 38, 39, 173</sup></p>
-      <p>Finally, studies are needed to assess the consequences of being
-  correctly or incorrectly diagnosed as having ADHD and any unintended
-  consequences and adverse effects of diagnostic tools.</p>
-      <p><named-content id="_Toc193750167" content-type="anchor"/>References</p>
+      <sec id="comparative-diagnostic-performance-of-tools-to-diagnose-adhd-among-adults">
+        <title>Comparative diagnostic performance of tools to diagnose ADHD
+    among adults</title>
+        <p>We identified over 100 studies that assessed putative tools to
+    aid the diagnosis of ADHD in adults. Although this is a substantial
+    number of studies, we deemed the strength of evidence for the
+    reported performance measures across each of categories of
+    diagnostic tools to be generally low because of large performance
+    variability across studies, the use of widely varying non-ADHD
+    comparison populations, reporting practices that precluded
+    meta-analyses across studies, and statistical analyses that were
+    often exploratory across a large number of variables.</p>
+        <sec id="measures-reported-for-diagnostic-performance">
+          <title>Measures Reported for Diagnostic Performance</title>
+          <p>As outlined in detail in the introduction, diagnosing Adult
+      ADHD is complex and in addition to issues surrounding the
+      reference standard, this review also highlighted limitations
+      associated with reported measures. Most studies reported
+      sensitivity (true positive rate), specificity (true negative
+      rate), and diagnostic accuracy (how many are correctly diagnosed).
+      Although these are standard performance statistics for diagnostic
+      classification, they have the important limitation of being
+      dependent on an arbitrary threshold that is applied to scores from
+      a diagnostic tool that defines whether individual participants do
+      or do not have ADHD – for example, the percent of symptoms
+      endorsed, the numerical score on a rating of symptom severity or
+      measure of cognitive performance, or the power in an EEG frequency
+      band. Studies that use the same diagnostic tool often apply
+      different thresholds to the scores from that tool, which will
+      necessarily alter the reported sensitivities and specificities.
+      Comparing sensitivities and specificities across studies that use
+      differing thresholds is therefore like comparing apples and
+      oranges.</p>
+          <p>Moreover, sensitivity and specificity, because of how they are
+      defined and calculated, inherently have an inverse relationship to
+      one another, such that raising the diagnostic threshold for a
+      score on a tool will reduce sensitivity (i.e., it will identify
+      fewer people who truly have ADHD) but increase specificity (i.e.,
+      falsely identify fewer people as having ADHD who do not in fact
+      have it), and vice versa for lowering the diagnostic threshold.
+      This inherent trade-off between sensitivity and specificity
+      establishes an operational limit for plots of sensitive versus
+      specific as shown in the figures along the y = -x line, i.e., from
+      the upper left to lower right corner of the plot, which would
+      identify diagnostic tests that perform at no better than chance.
+      Tools in the upper right quadrant of that plot improve in overall
+      performance as they approach the upper right corner, or perfect
+      accuracy (100% true positives and 100% true negatives). Identified
+      research shows that, for categories of tools such as rating scales
+      and neuropsychological test measures that have the most data
+      points, many studies perform little better than chance (they lie
+      close to the y = -x line; studies that lie to the left of it
+      perform worse than chance) and, moreover, because they lie on or
+      near the diagonal, the findings suggest that variability in
+      performance likely derives from differences in the thresholds
+      applied to the scores from the diagnostic tools. Unfortunately,
+      adjusting sensitivity and specificity through use of the same
+      diagnostic threshold is impossible without having the scores from
+      the tool for each study participant. Reports of diagnostic
+      accuracy suffer the same limitation of depending inherently on the
+      diagnostic threshold applied to the tool’s score.</p>
+          <p>One index of diagnostic performance that addresses these
+      limitations of sensitivity and specificity metrics is AUC (area
+      under the curve), a measure from receiver operating characteristic
+      (ROC) curves that was first developed by engineers during World
+      War II to detect enemy objects in the battlefield. An ROC curve is
+      a plot of sensitivity vs specificity across the entire range of
+      possible diagnostic thresholds. The area under this ROC curve
+      provides a single, overall index of performance that is
+      independent of diagnostic threshold. AUC values range of 0.5
+      (corresponding to the y=x line) indicate that the tool provides no
+      information above chance for diagnostic classification. Values of
+      1.0 (corresponding to the vertical x=0 line) indicate that the
+      tests performs perfectly, correctly classifying all participants
+      who have ADHD as having it and all non-ADHD participants as not
+      having it. Intermediate AUC values of 90 to 100 are commonly
+      classified as <italic>excellent</italic> performance; 80 to 90 as
+      <italic>good</italic>; 70 to 80 <italic>fair</italic>; 60 to 70
+      <italic>poor</italic>; and 50 to 60 as <italic>failed</italic>.
+      Studies of diagnostic tools are increasingly reporting performance
+      in terms of AUC, in addition to the more traditional measures of
+      sensitivity and specificity.</p>
+          <p>A minority of studies reported other measures of diagnostic
+      performance, including positive predictive value (PPV) and
+      negative predictive value (NPV). They are calculated as PPV = True
+      Positives / (True Positives + False Positives), and NPV = True
+      Negatives / (True Negatives + False Negatives). PPV is the
+      probability that a person with a positive test result has the
+      condition; NPV is the probability that a person with a negative
+      test result does not have the condition. False positives will
+      increase and false negatives will decline with lower base rates in
+      the population – if no one has the condition, all positive results
+      are false, and all negative results are correct then PPV will
+      decrease to 0.00 (no one with a positive test result has the
+      condition) and NPV will increase to 1.00 - everyone with a
+      negative test result does not have the condition (and the reverse
+      is true if everyone has the condition). Thus, these metrics
+      represent the utility of diagnostic tools in a particular setting
+      that has a specific base rate of ADHD in population sampled. They
+      will differ across varying diagnostic settings because the base
+      rates of ADHD differ across those settings (the base rate may be,
+      for example, 60-70% in a clinic where patients assessed for
+      suspected ADHD, it may be 50% in a study designed to have equal
+      numbers of ADHD and healthy control participants, or it may be 5%
+      in an epidemiological sample of the general population). Very few
+      studies that we identified for inclusion reported PPV and NPV
+      values, generally without providing accurate and independent
+      estimates of the base rates of ADHD in the study’s specific
+      diagnostic setting.</p>
+        </sec>
+        <sec id="the-importance-of-the-comparator-sample">
+          <title><named-content id="_Toc201103576" content-type="anchor"/>4.1.2
+      The Importance of the Comparator Sample</title>
+          <p>Measures of diagnostic accuracy will vary with the
+      characteristics of the non-ADHD participants from which the
+      diagnostic tool is attempting to discriminate the study’s ADHD
+      participants. For example, if the non-ADHD participants are
+      patients who have more symptoms that overlap those of ADHD, as
+      occurs commonly with patients who have autism, depression, or
+      anxiety, false positives will tend to be higher than in studies
+      where the non-ADHD participants have few or no symptoms that
+      overlap, as happens when the comparator group is a sample of
+      neurotypical controls.</p>
+          <p>In real-world clinical practice, clinicians rarely if ever need
+      to determine whether a patient has ADHD or is healthy and
+      symptom-free (the clinical equivalent of a neurotypical control in
+      many research studies). The patient has presented to the clinician
+      with some kind of clinical problem, or they would not be seeing
+      the clinician. That problem likely has symptoms that overlap those
+      of ADHD, or ADHD would not be considered as a clinical
+      possibility. For these reasons, the much more clinically relevant
+      studies of performance for tools that aid the diagnosis of ADHD
+      are those that employ a comparator group of participants who have
+      mental health problems and symptoms that may overlap those of
+      ADHD. The <italic><underline>most</underline></italic> clinically
+      relevant comparison are from studies in which all participants
+      were presenting for evaluation of possible ADHD, because
+      real-world clinicians are asked to diagnose ADHD in patients who
+      are presenting for an ADHD assessment.<sup>33</sup> These
+      comparator samples will tend to produce more false positives in
+      diagnostic testing, thus lowering specificity
+      metrics.<sup>168</sup></p>
+        </sec>
+        <sec id="rating-scales">
+          <title><named-content id="_Toc201103577" content-type="anchor"/>4.1.3
+      Rating Scales</title>
+          <p>Numerous studies reported on performance for at least one
+      self-report measure in diagnosing ADHD (Figure 5). The number of
+      different scales was large (17), but the most commonly reported
+      measures were the CAARS, ASRS, and WURS. Studies that used the
+      same measure often applied different diagnostic cut-offs to the
+      score the measure generates. Self-reports were generally able to
+      correctly rule out ADHD, with good but rarely excellent
+      performance and substantial variation across
+      studies.<sup>71, 86, 101</sup></p>
+          <p>Examination of the plotted sensitivity versus specificity
+      suggests that sensitivity and specificity measures are similarly
+      distributed around the y=x line, indicating that self-rating
+      scales are similarly likely to under-identify individuals who
+      truly have ADHD (reflecting sensitivity) and to over-identify
+      individuals who do not have ADHD (reflecting
+      specificity).<sup>168</sup> Closer examination also suggests that
+      the measures of CAARS performance tended to lie along the y = -x
+      line or close to it, suggesting poorer performance independent of
+      the specific diagnostic threshold used. Measures of the ASRS
+      tended to cluster closer to the upper right corner, suggesting
+      overall better performance, independent of the diagnostic
+      threshold used. Only three studies reported performance for peer
+      ratings, but the characteristics of the studies preclude
+      interpretation.</p>
+        </sec>
+        <sec id="neuropsychological-tests">
+          <title>Neuropsychological Tests</title>
+          <p>A considerable number of studies have been published that
+      report on the performance of various neuropsychological tests to
+      diagnose ADHD in adults. Most of these studies assessed
+      performance of a wide range of measures in a highly exploratory
+      way, without specific hypotheses for which measures would perform
+      best. All the studies reported on performance of some form of CPT,
+      but the CPT, like most of the individual neuropsychological tests,
+      itself generates many measures, and which of those measures was
+      reported and performed best varied widely across studies. These
+      approaches to the analysis and reporting of results greatly
+      complicate comparison of performance across studies and the
+      interpretation and generalization of findings. The best performing
+      of the neuropsychological tests are reported here, which risks a
+      positive bias for assessing overall performance of
+      neuropsychological tests, but which nevertheless seems to be the
+      most efficient way to report findings.</p>
+          <p>With all these caveats, results indicated a substantial false
+      negative rate in most studies.<sup>95, 144</sup> Sensitivity
+      varied widely, from excellent for the AQT<sup>118</sup> to very
+      poor,<sup>146</sup> with most sensitivity measures in the fair
+      range or poorer, indicating that neuropsychological tests often
+      missed the diagnosis in those who truly had ADHD. Specificity
+      likewise varied widely, from perfect specificity for the
+      AQT<sup>118</sup> to poor specificity for QbTest Plus
+      variables,<sup>144</sup> though in general, specificity was fair
+      at best, indicating that tests often incorrectly identified
+      non-ADHD controls as having ADHD.</p>
+          <p>Comparing sensitivity and specificity measures across
+      categories of diagnostic tools, neuropsychological tests do not
+      seem to perform better than self-report measures (self-report
+      measures have more frequent clusters near the upper right corner
+      of the plots, indicating better combinations of sensitivity and
+      specificity). Recent systematic reviews of the diagnostic utility
+      of continuous performance measures for adults with ADHD have
+      concluded that these tests are vulnerable to practice effects and
+      the feigning of symptoms, and they alone do not sufficiently
+      dis­criminate persons who have ADHD from clinical
+      controls.<sup>38, 39</sup></p>
+        </sec>
+        <sec id="other-diagnostic-tools">
+          <title><named-content id="_Toc201103579" content-type="anchor"/>4.1.5
+      Other Diagnostic Tools</title>
+          <p>With a couple of exceptions, overall diagnostic performance of
+      EEG measures was fair to good for the dozen studies that reported
+      them, although, similar to the limitations of neuropsychological
+      test studies, the EEG measures varied widely across studies and
+      were often highly exploratory in assessing performance across many
+      measures. Measures, for example, ranged from resting state
+      EEG,<sup>96, 125</sup> to event-related potentials during
+      neuropsychological tasks,<sup>54, 115</sup> to EEG recordings
+      during transcranial magnetic stimulation.<sup>80</sup> Several of
+      the studies used machine learning or other techniques to combine
+      various EEG measures into a highly complex test measure that would
+      be difficult or impossible to replicate in future studies. Most
+      employed a non-clinical comparator sample, which likely
+      contributed to the reasonable performance measures. Sensitivities
+      ranged from perfect performance during a CPT and using machine
+      learning-derived EEG measure<sup>91</sup> to fair performance
+      using resting state EEG measures.<sup>125</sup> Specificity showed
+      an even wider range from excellent for event-related
+      potential<sup>54</sup> to poor performance in a study evaluating
+      resting state EEG<sup>96</sup> but was generally good in
+      identified studies. Most clinical practices and even research
+      centers do not have EEG capability, let alone under the complex
+      testing conditions employed in these studies. The real-world
+      applicability of these measures is therefore currently extremely
+      limited.</p>
+          <p>The studies that assessed diagnostic performance for
+      neuroimaging measures used a wide range of imaging technologies,
+      including SPECT,<sup>48</sup> 3-D SPECT,<sup>136</sup> structural
+      MRI, DTI,<sup>56</sup> and resting state fMRI.<sup>157, 161</sup>
+      Limitations of these studies are similar to those for EEG
+      measures, with diagnostic test measures highly ad hoc and complex,
+      precluding generalizability and opportunities for replication.
+      Comparator samples were often non-clinical, and analyses were
+      often exploratory across multiple test measures. Sensitivities
+      ranged from perfect in a large retrospective cohort SPECT
+      study<sup>48</sup> to poor in a SPECT study<sup>136</sup> with a
+      clinical comparator sample. Specificities ranged from excellent in
+      the retrospective SPECT study<sup>48</sup> to fair in an fMRI
+      study).<sup>161</sup> Also similar to EEG, the real-world
+      applicability of using neuroimaging methods to aid diagnosis is
+      limited by the practical challenges in acquiring the imaging
+      measures.</p>
+          <p>Five studies reported on performance of putative biomarkers in
+      diagnosing ADHD. Each used a different technology, including a
+      genetic marker,<sup>79</sup> eye tracking,<sup>88</sup> blood
+      oxidative status,<sup>138</sup> physiological data from a wearable
+      device,<sup>49</sup> and Motor Function Neurological Assessment
+      (MFNU).<sup>150</sup></p>
+        </sec>
+      </sec>
+      <sec id="direct-comparisons-of-diagnostic-performance">
+        <title>Direct Comparisons of Diagnostic Performance</title>
+        <p>Because measures of diagnostic performance, especially measures
+    of sensitivity and specificity, vary with the diagnostic threshold
+    applied to the score that the diagnostic tool generates, as well as
+    sample characteristics, interpreting differences in measures of
+    diagnostic performance across studies is exceedingly difficult. All
+    these differences in study characteristics undoubtedly contributed
+    to the scatter of data points in the plots of sensitivity versus
+    specificity shown in the figures; disentangling all of these effects
+    on measures of diagnostic performance across studies is
+    impossible.</p>
+        <p>For these reasons, studies that directly compare measures of
+    performance across diagnostic tools in the same sample of
+    participants are most valuable to identify better performing tools.
+    We identified 11 such studies. Of those, two had only six
+    participants each who had ADHD<sup>100, 132</sup> and preclude
+    interpretation. One study reported performance metrics only for EEG
+    measures.<sup>54</sup> Of the remaining studies, seven were
+    discriminating participants with ADHD from participants with other
+    clinical conditions<sup>65, 78, 98, 122, 123, 145, 154</sup> and one
+    was discriminating from participants with a mix of patients and
+    neurotypical controls.<sup>119</sup> They all assessed performance
+    of self-rating scales for ADHD symptoms. Those that attempted to
+    make very difficult clinical discriminations reported the poorest
+    performance (e.g., ADHD+ASD vs ASD alone: sensitivity 57%,
+    specificity 81%;<sup>122</sup> combined type ADHD vs predominantly
+    Inattentive ADHD: sensitivity 65%, specificity 61%).<sup>154</sup>
+    The other studies generally reported sensitivities ranging from the
+    mid-70’s to low 90’s, but those with the highest sensitivities had
+    the lowest specificities, in the high 20’s and low 30’s, as expected
+    given the inherent trade-off between sensitivity and specificity
+    that depends on the diagnostic threshold applied to scores from the
+    rating scale. Peer ratings were also assessed in three of the
+    studies:<sup>65, 98, 122</sup> one reported substantially lower
+    sensitivities but higher specificities than for the
+    self-ratings;<sup>65</sup> one reported performance comparable to
+    self-ratings; <sup>98</sup> and one reported substantially higher
+    sensitivity and specificity when using both an ADHD scale and an ASD
+    scale in discriminating ASD+ASD from ASD alone.<sup>122</sup>
+    Combining the self-ratings and peer ratings in two of these studies
+    yielded comparable sensitivity in one study,<sup>65</sup> improved
+    sensitivity in the other,<sup>98</sup> and improved specificity in
+    both, compared with self-ratings alone.</p>
+        <p>Neuropsychological measures were assessed in five of these
+    studies.<sup>78, 98, 119, 123, 145</sup> Sensitivities ranged from
+    30 percent (corresponding specificity 74%) <sup>98</sup>to 84
+    percent (corresponding specificity 80%),<sup>78</sup> and
+    specificities ranged from 56 percent (corresponding sensitivity
+    73.3%)<sup>123</sup> to 86 percent (corresponding sensitivity
+    47%).<sup>145</sup> Generally, however, performance of these as
+    stand-alone measures was poorer than for self-ratings, and studies
+    were inconsistent in identifying which of the numerous measures from
+    the continuous performance measurement (e.g., omission errors,
+    commission errors, reaction time variability) provided the best
+    performance. Three of these studies assessed diagnostic performance
+    when combining self-ratings with continuous performance
+    measures.<sup>78, 119, 123</sup> One found substantially better
+    sensitivity than for the neuropsychological test alone and better
+    specificity than for the self-rating alone, one found better
+    sensitivity and specificity than for the continuous performance test
+    alone,<sup>78</sup> and one did not report sensitivity or
+    specificity for the combination.<sup>119</sup></p>
+        <p>These findings from head-to-head comparisons, taken together,
+    suggest that the combination of self-ratings, peer ratings, and
+    continuous performance test scores may one day prove more useful
+    than either measure alone in accurately diagnosing ADHD. Currently,
+    however, self-ratings combined with peer ratings offer the best
+    evidence for improving diagnostic performance over either rating
+    alone.</p>
+      </sec>
+      <sec id="implications">
+        <title><named-content id="_Toc193750164" content-type="anchor"/>4.3
+    Implications</title>
+        <p>Self-report scales are easy to use tools to aid the diagnosis of
+    ADHD in both primary and specialty care settings. They are prone,
+    however, to both false positive and false negative findings,
+    especially when used in a setting where adults present for
+    evaluation of suspected ADHD. A negative test is reassuring but not
+    conclusive, and it likely prompts in a patient complaining about
+    ADHD symptoms an assessment of current symptoms, as well as
+    retrospective assessment of symptoms earlier in childhood (when
+    symptom expression may have been more complete) from other sources –
+    including spouses, significant others, parents, siblings, and
+    teacher comments in school records. A negative test also prompts
+    questions about other mental health problems whose symptoms overlap
+    those of ADHD, especially depression, anxiety, substance abuse,
+    stress, and trauma.</p>
+        <p>Self-report scales are also prone to false positives, most often
+    from the presence of one or more of these conditions with
+    overlapping symptoms. Therefore, assessing the validity of positive
+    responses to questions on the scale helps in deciding how likely the
+    test result is to be a true positive. Thus, patients with a positive
+    test results should elaborate on experiences of symptoms in their
+    own words, noting when the symptoms first began to discern if they
+    were present in childhood, reviewing the trajectory of the symptoms
+    over time, the settings or experiences that exacerbate them, and
+    what kind of functional impairment they produce, if
+    any.<sup>16</sup> ADHD symptoms in childhood can be assessed by
+    asking patients and parents to complete retrospective symptom
+    reports on standard checklists, such as the ADHD rating
+    scale<sup>174</sup> or the Conners 3 rating scale.<sup>175</sup>
+    Similar to a negative test, positive tests also raise questions
+    about overlapping symptoms from other conditions. Assessing symptoms
+    of other conditions that can overlap with ADHD symptoms can be done
+    even in a busy clinical practice through the use of existing scales
+    for depression and anxiety (such as the PHQ-9<sup>176</sup> and
+    GAD-7<sup>177</sup>). It is critical to assess whether positive
+    responses truly represent ADHD or instead the symptoms of another
+    clinical condition.<sup>16</sup></p>
+        <p>Neuropsychological tests, including the CPT, are not routine in
+    diagnosing ADHD in adults, and both sensitivity and specificity for
+    these tests are on average lower than for self-report measures.
+    Certainly, the long and expensive batteries of traditional
+    neuropsychological testing will not aid diagnosis of ADHD, though
+    they may serve other clinical purposes. Prior reviews of CPT
+    performance as a diagnostic tool in adults with ADHD have yielded
+    these same conclusions.<sup>38, 39</sup> Whether the combination of
+    a CPT with self-report measures can improve diagnostic performance
+    is at present unclear. In addition, symptom validity tests and
+    performance validity tests can detect some invalid presentations in
+    self-reports and inadequate effort in neuropsychological tests and
+    many experts have recommended the use of these tools as part of a
+    comprehensive assessment of ADHD in adults.<sup>178-184</sup>
+    Identified studies varied regarding the inclusion of validity tests.
+    In addition, an individual’s effort during testing can fluctuate
+    significantly over the course of an assessment, and individuals
+    differ in what cognitive abilities they choose to exaggerate or
+    feign deficits.<sup>110, 185</sup></p>
+        <p>Finally, the quality of evidence for objective tests that are not
+    vulnerable to impression management such as EEG, neuroimaging, and
+    biomarkers, as tools to diagnose ADHD in adults is low. None of the
+    performance findings have been replicated, and no clinical
+    effectiveness studies have been conducted to assess use of these
+    tools in the real world to diagnose ADHD. From a practical
+    perspective, very few primary care or specialty mental health
+    clinicians have access to these technologies. Thus, these tools are
+    not even remotely close to being ready for clinical application to
+    aid diagnosis, even though the FDA has approved one EEG measure as a
+    purported diagnostic aid.<sup>186, 187</sup></p>
+      </sec>
+      <sec id="strengths-limitations-and-applicability">
+        <title><named-content id="_Toc193981789" content-type="anchor"/>4.4
+    Strengths, Limitations, and Applicability</title>
+        <p>A strength of this review is its scope and inclusiveness -
+    publications did not have date restrictions, and they were not
+    limited to use of any pre-specified tools, which led to inclusion of
+    novel EEG, neuroimaging, and biomarker studies in the diagnosis of
+    ADHD. Nonetheless, this review was limited to diagnostic accuracy
+    studies and did not focus on psychometric considerations such as the
+    validity of symptoms supporting a diagnosis. In addition, we
+    restricted the review to English-language studies, which will have
+    missed some tools used locally outside of the U.S. and other
+    English-speaking countries.</p>
+        <p>The conclusions of this review are limited by the poor quality of
+    evidence for performance of every category of diagnostic tool and by
+    the paucity of reporting findings that would support meta-analysis
+    across studies, including AUCs, false positive and negative rates,
+    and the thresholds applied to scores from the diagnostic tools.
+    Furthermore, limiting to studies reporting on a reference standard
+    added focus to the review, but given the issues surrounding a
+    clinical diagnosis of ADHD in adults also needs to acknowledge that
+    there is no true and universally accepted gold standard in this
+    research area.</p>
+        <p>Finally, several included studies reported multiple exclusions
+    for eligible participants, which hinders the generalizability of the
+    findings to patients seen in routine practice, in particular in
+    primary care. Furthermore, some studies used sophisticated and
+    resource-intense assessment methods, as well as advanced analytic
+    procedures to optimize diagnostic performance. Hence, diagnostic
+    performance may not translate from the favorable effects shown in
+    the documented research to real world practice and likely represent
+    a best-case scenario.</p>
+      </sec>
+      <sec id="next-steps">
+        <title>Next Steps</title>
+        <p>Despite the limitations of studies thus far, it seems clear from
+    their findings that no single rating scale or neuropsychological
+    test, and probably no single neuroimaging algorithm or biomarker,
+    will provide the desired combination of high sensitivity and high
+    specificity in diagnosing adults who have ADHD in real-world
+    settings, where the clinical question is whether a given individual
+    who is suspected of having ADHD actually has it. The relatively few
+    studies that have directly compared the performance of diagnostic
+    tools with one another provide some early indication that the
+    combination of tools may yield may improve both sensitivity and
+    specificity in diagnosing ADHD compared with the use of any single
+    tool alone. Future studies should compare the performance of tools
+    within and across categories, both singly and in combination. The
+    methods for optimally combining measures across different tools
+    should be made explicit and have a clear rationale. Algorithms for
+    combining measures that are based on machine learning, neural
+    networks, or other similar “black box” technologies should be made
+    publicly available to facilitate validation, replication, and
+    dissemination. Much more research is needed to determine how to
+    combine data optimally across informants or
+    tools.<sup>16, 33</sup></p>
+        <p>Future studies should move past the use of neurotypical
+    comparator groups, which have little or no real-world clinical
+    relevance, and instead assess diagnostic performance only in
+    clinical samples. Further, future studies should assess diagnostic
+    performance in clinically important participant subgroups, including
+    subgroups defined by age, sex, race, ethnicity, and the presence of
+    disorders that commonly co-occur with ADHD, if only to be able to
+    say with more confidence that there are no differences. We cannot
+    assume that the absence of research equates to the absence of
+    evidence and we had to note several times that the evidence was
+    simply insufficient for more concrete evidence statements. Because
+    the diagnosis of ADHD requires childhood onset, studies are needed
+    to assess how best to assess and validate the presence of symptoms
+    in childhood.<sup>168</sup> It is often difficult to obtain
+    childhood educational and medical records and adults’ recall of
+    childhood symptoms is limited.<sup>16, 168, 169, 188-193</sup> More
+    research is also needed on measures to detect invalid responses in
+    completing self-report ADHD rating scales and inadequate effort on
+    neuropsychological tests.<sup>33</sup></p>
+        <p>Future studies of diagnostic tools should report their findings
+    in much more detail to support meta-analyses across studies. This
+    would include reporting false positive and negative rates, the
+    thresholds applied to scores from the diagnostic tools, and any data
+    manipulation used to produce the finding. Studies should also report
+    ROC analyses to support comparisons of test performance across
+    studies that are independent of diagnostic thresholds. Studies
+    should also make available their individual-level data in public
+    repositories to support future efforts at replication, synthesis,
+    and new discovery.</p>
+        <p>Although currently available “objective” measures of
+    neurocognitive performance are not likely to be useful tools in
+    diagnosing ADHD in adults, continued search for and development of
+    better objective, performance-based measures is warranted. Candidate
+    tools will need to overcome the limitations identified for prior
+    continuous performance tests and other neuropsychological tests.
+    New, better-performing tools will need to correlated better with
+    ADHD symptom ratings, have better test-retest reliability, have
+    fewer ceiling effects that likely contribute to false negative
+    diagnoses, and have greater ecological validity – i.e., better
+    simulate the effects of external and environmental distractions that
+    disrupt attention in everyday life. <sup>33, 38, 39, 173</sup></p>
+        <p>Finally, studies are needed to assess the consequences of being
+    correctly or incorrectly diagnosed as having ADHD and any unintended
+    consequences and adverse effects of diagnostic tools.</p>
+      </sec>
+    </sec>
+    <sec id="references">
+      <title>References</title>
       <p>1. Weiss G, Hechtman LT. Hyperactive Children Grown Up, Second
   Edition: ADHD in Children, Adolescents, and Adults: Guilford
   Publications; 1993.</p>
@@ -5723,42 +4836,6 @@ Adults</article-title>
   </body>
   <back>
 </back>
-  <sub-article article-type="notebook" id="nb-3-nb-1">
-    <front-stub>
-</front-stub>
-    <body>
-      <sec id="contributing-nb-1">
-        <title>Contributing</title>
-        <p>The source files are under the <monospace>sources</monospace>
-  subdirectory. The <monospace>.sfd</monospace> files are FontForge
-  source font format and should be edited with
-  <ext-link ext-link-type="uri" xlink:href="https://fontforge.org">FontForge</ext-link>.
-  The <monospace>.fea</monospace> files are
-  <ext-link ext-link-type="uri" xlink:href="https://adobe-type-tools.github.io/afdko/OpenTypeFeatureFileSpecification.html">OpenType
-  feature files</ext-link> and should be edited by a plain text
-  editor.</p>
-        <p>To build the fonts locally, you will need to setup
-  <ext-link ext-link-type="uri" xlink:href="https://github.com/theleagueof/fontship">Fontship</ext-link>.
-  Several methods are available for installation including a simple
-  one-liner with no installation
-  <ext-link ext-link-type="uri" xlink:href="https://github.com/theleagueof/fontship#docker-setup">using
-  Docker</ext-link>. One Fontship is setup, regenerate the fonts at any
-  time using:</p>
-        <preformat>fontship make</preformat>
-        <p>A remote CI runner will also automatically run
-  <monospace>fontship</monospace> for all PRs on this repository, so in
-  some cases you may not need to install it at all. You can even
-  download and review the fonts it builds after each push. Hovever this
-  is cumbersome for actual font development and we recomend checking
-  your work with local feedback.</p>
-        <p>Note that FontForge adds unnecessary clutter to its source files on
-  each save that <bold>must</bold> be removed before committing. After
-  modifying the <monospace>.sfd</monospace> files, and before committing
-  the changes, you can automatically clean them up with:</p>
-        <preformat>fontship make normalize</preformat>
-      </sec>
-    </body>
-    <back>
-</back>
-  </sub-article>
+  <!-- (F2ED4C6E)[nb-1]:/Users/joey/annals-of-medicine/static/fonts/Libertinus-7.051/CONTRIBUTING.md -->
+  <!-- (F2ED4C6E)[nb-2]:/Users/joey/annals-of-medicine/media/README_FIGURES.md -->
 </article>
