@@ -18,3 +18,5 @@ _site/
 docs/
 .vscode/
 .Renviron
+_arxiv/
+media/image1.png
