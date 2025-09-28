@@ -1,0 +1,1005 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  12pt,
+  letterpaper,
+]{article}
+\usepackage{xcolor}
+\usepackage[top=1in,bottom=1in,left=1in,right=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+  \setmainfont[Numbers=Proportional,Numbers=OldStyle]{Linux Libertine O}
+  \setmathfont[]{Libertinus Math}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{setspace}
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+
+
+% -----------------------
+% CUSTOM PREAMBLE STUFF
+% -----------------------
+
+% -----------------
+% Typography tweaks
+% -----------------
+% Indent size
+\setlength{\parindent}{0.5in}
+\setlength{\leftmargin}{0.5in}
+
+% Fix widows and orphans
+\usepackage[all,defaultlines=2]{nowidow}
+
+% List things
+\usepackage{enumitem}
+% Same document-level indentation for ordered and ordered lists
+\setlist[1]{labelindent=\parindent}
+\setlist[itemize]{leftmargin=*}
+\setlist[enumerate]{leftmargin=*}
+
+% Wrap definition list terms
+% https://tex.stackexchange.com/a/9763/11851
+\setlist[description]{style=unboxed}
+
+
+% For better TOCs
+\usepackage[titles]{tocloft}
+
+% Remove left margin in lists inside longtables
+% https://tex.stackexchange.com/a/378190/11851
+\AtBeginEnvironment{longtable}{\setlist[itemize]{nosep, wide=0pt, leftmargin=*, before=\vspace*{-\baselineskip}, after=\vspace*{-\baselineskip}}}
+
+% For fancy ORCID links
+\usepackage{orcidlink}
+
+% Indent all first paragraphs because APA wants that
+\usepackage{indentfirst}
+
+% Allow for /singlespacing and /doublespacing
+\usepackage{setspace}
+
+
+% -----------------
+% Title block stuff
+% -----------------
+
+% Abstract
+\usepackage{abstract}
+\renewcommand{\abstractnamefont}{\normalfont\normalsize\bfseries}
+\renewcommand{\abstracttextfont}{\normalsize}
+\setlength{\absleftindent}{\parindent}
+\setlength{\absrightindent}{\parindent}
+
+
+% Keywords
+\providecommand{\keywords}[1]{\textbf{\textit{Keywords---}}#1}
+  
+% Title
+\usepackage{titling}
+\setlength{\droptitle}{2\baselineskip}
+\pretitle{\begin{center}\normalfont\normalsize\bfseries}
+\posttitle{\par\end{center}\vspace{2\baselineskip}}
+
+
+% ------------------
+% Section headings
+% ------------------
+\usepackage{titlesec}
+\titleformat*{\section}{\center\normalsize\bfseries}
+\titleformat*{\subsection}{\normalsize\bfseries}
+\titleformat*{\subsubsection}{\normalsize\bfseries\itshape}
+\titleformat{\paragraph}[runin]{\bfseries}{\theparagraph.}{3pt}{\space}[.]
+\titleformat{\subparagraph}[runin]{\bfseries\itshape}{\thesubparagraph.}{3pt}{\space}[.]
+
+% \titlespacing{<command>}{<left>}{<before-sep>}{<after-sep>}
+% Starred version removes indentation in following paragraph
+\titlespacing*{\section}{0em}{2em}{0em}
+\titlespacing*{\subsection}{0em}{1em}{0em}
+\titlespacing*{\subsubsection}{0em}{0em}{0em}
+\titlespacing*{\paragraph}{\parindent}{1ex}{1em}
+\titlespacing*{\subparagraph}{\parindent}{1ex}{1em}
+
+
+% -----------
+% Footnotes
+% -----------
+% NB: footmisc has to come after setspace and biblatex because of conflicts
+\usepackage[bottom]{footmisc}
+\renewcommand*{\footnotelayout}{\footnotesize}
+
+\addtolength{\skip\footins}{12pt}  % vertical space between rule and main text
+\setlength{\footnotesep}{16pt}  % vertical space between footnotes
+
+
+% ----------
+% Captions
+% ----------
+\usepackage[font=normalsize]{caption}
+
+
+% --------
+% Macros
+% --------
+% pandoc will not convert text within \begin{} XXX \end{} to Markdown and will
+% treat it as regular TeX. Because of this, it's impossible to do stuff like
+% this:
+
+% \begin{landscape}
+%
+% | One | Two   |
+% |-----+-------|
+% | my  | table |
+% | is  | nice  |
+%
+% \end{landscape}
+%
+% Since it'll render like: | One | Two | |—–+——-| | my | table | | is | nice |
+% 
+% BUT, from this http://stackoverflow.com/a/41945462/120898 we can get around
+% this by creating new commands for \begin and \end, like this:
+\usepackage{pdflscape}
+\newcommand{\blandscape}{\begin{landscape}}
+\newcommand{\elandscape}{\end{landscape}}
+
+% \blandscape
+%
+% | One | Two   |
+% |-----+-------|
+% | my  | table |
+% | is  | nice  |
+%
+% \elandscape
+
+% Same thing, but for generic groups
+% But can't use \bgroup and \egroup because those are built-in TeX things
+\newcommand{\stgroup}{\begingroup}
+\newcommand{\fingroup}{\endgroup}
+
+
+% ---------------------------
+% END CUSTOM PREAMBLE STUFF
+% ---------------------------
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Diagnosis of Attention-Deficit/Hyperactivity Disorder in Adults},
+  pdfauthor={Julian Bashir; Elim Garak},
+  pdfkeywords={surgery, espionage, brains},
+  colorlinks=true,
+  linkcolor={DarkSlateBlue},
+  filecolor={Maroon},
+  citecolor={DarkSlateBlue},
+  urlcolor={DarkSlateBlue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+% -----------------------
+% END-OF-PREAMBLE STUFF
+% -----------------------
+
+% For patching commands like \subtitle
+\usepackage{etoolbox}
+
+
+% -----------------------
+% Left aligned settings
+% -----------------------
+\usepackage[document]{ragged2e}
+\setlength{\RaggedRightParindent}{\parindent}
+\setlength{\RaggedRightRightskip}{0pt plus 3em}
+
+% That also affects all the captions, so this forces them to be unindented
+\AtBeginEnvironment{figure}{\setlength{\RaggedRightParindent}{0pt}}
+\AtBeginEnvironment{table}{\setlength{\RaggedRightParindent}{0pt}}
+\AtBeginEnvironment{longtable}{\setlength{\RaggedRightParindent}{0pt}}  % Longtables
+\AtBeginEnvironment{apptbl}{\setlength{\RaggedRightParindent}{0pt}}  % My custom appendix section
+\AtBeginEnvironment{tcolorbox}{\setlength{\RaggedRightParindent}{0pt}}  % Quarto callouts
+
+% ----------
+% Endnotes
+% ----------
+\usepackage{endnotes}
+\renewcommand{\enotesize}{\normalsize}
+\let\footnote=\endnote
+
+% -----------------
+% Running headers
+% -----------------
+
+\usepackage{fancyhdr}
+\setlength{\headheight}{0.25in}
+\renewcommand{\headrulewidth}{0pt}  % Remove lines
+\renewcommand{\footrulewidth}{0pt}
+
+% SHORT TITLE           Page #
+\fancypagestyle{normal}{
+  \fancyhf{}
+  \lhead{\uppercase{ Cranial Implants }}
+  \rhead{\thepage}
+}
+
+% Running head: SHORT TITLE        Page #
+\fancypagestyle{title}{
+  \fancyhf{}
+  \lhead{Running head: \uppercase{ Cranial Implants }}
+  \rhead{}
+}
+
+% Use regular heading style
+\pagestyle{normal}
+
+
+% ---------------------- 
+% Title block elements
+% ---------------------- 
+\usepackage{authblk}
+\renewcommand*{\Authsep}{, }
+\renewcommand*{\Authand}{ and }
+\renewcommand*{\Authands}{, and }
+\renewcommand*{\Affilfont}{\normalsize}
+\renewcommand*{\Authfont}{\normalsize}
+
+\title{Diagnosis of Attention-Deficit/Hyperactivity Disorder in Adults:}
+
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par #1 \par}{}{}
+}
+\makeatother
+\subtitle{A Systematic Review}
+
+\author[1]{Julian Bashir}
+\author[1,2]{Elim Garak}
+
+\affil[1]{Starbase Deep Space Nine}
+\affil[2]{Terok Nor}
+
+\date{}
+
+
+% Typeset URLs in the same font as their parent environment
+%
+% This has to come at the end of the preamble, after any biblatex stuff because 
+% some biblatex styles (like APA) define their own \urlstyle{}
+\usepackage{url}
+\urlstyle{same}
+
+
+% Make sure math environments are always single spaced and have a little space after
+\let\oldDisplayMath=\[
+\let\endoldDisplayMath=\]
+\renewcommand{\[}{\begin{singlespace}\oldDisplayMath}
+\renewcommand{\]}{\endoldDisplayMath\end{singlespace}\vspace{\baselineskip}}
+
+% ---------------------------
+% END END-OF-PREAMBLE STUFF
+% ---------------------------
+\begin{document}
+% ---------------
+% TITLE SECTION
+% ---------------
+
+\begin{titlepage}
+\center
+
+% Don't include a newpage before \maketitle
+{\let\newpage\relax\maketitle}
+
+% Needs to come after \maketitle
+\thispagestyle{title}
+
+\vspace{0.25in}
+
+
+\vspace{0.5in}
+
+\begin{center}
+
+\textbf{Author note}
+
+\raggedright\setlength{\parindent}{0.5in}Julian
+Bashir,~\orcidlink{0000-0002-3948-3914}~\url{https://orcid.org/0000-0002-3948-3914}, Chief
+Medical Officer, Sick Bay, Starbase Deep Space Nine 
+
+\raggedright\setlength{\parindent}{0.5in}Elim Garak, Shopkeeper and
+Tailor, Sick Bay, Starbase Deep Space Nine; Promenade, Terok Nor 
+
+
+\end{center}
+
+\begin{center}
+
+\textbf{Correspondence}
+
+\par\raggedright\setlength{\parindent}{0.5in}Correspondence concerning
+this article should be addressed to~Julian
+Bashir (\href{mailto:jbashir@starfleet.ufp}{jbashir@starfleet.ufp}), Sick
+Bay, Starbase Deep Space Nine, 1234 Main Street, Anytown, NY 90210, USA 
+
+\end{center}
+
+\begin{center}
+
+\textbf{Additional information}
+
+\par\raggedright\setlength{\parindent}{0.5in}We have no known conflict
+of interest to disclose.
+
+\end{center}
+
+\begin{center}
+
+\textbf{Acknowledgments}
+
+\par\raggedright\setlength{\parindent}{0.5in}Placeholder text generated
+at \url{https://vlad-saling.github.io/star-trek-ipsum/}.
+
+\end{center}
+
+\vfill  % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+\doublespacing
+
+\begin{abstract}
+\noindent Space: the final frontier. These are the voyages of the
+starship \emph{Enterprise}. Its continuing mission: to explore strange
+new worlds. To seek out new life and new civilizations. To boldly go
+where no one has gone before!
+\end{abstract}
+
+\vspace{\baselineskip}
+
+\indent \keywords{%
+surgery, espionage, brains%
+}
+
+\newpage
+
+\begin{center}
+\singlespacing
+\textbf{Diagnosis of Attention-Deficit/Hyperactivity Disorder in
+Adults:\\A Systematic Review}
+\end{center}
+
+% -------------------
+% END TITLE SECTION
+% -------------------
+
+\setstretch{2}
+\subsection{Abstract}\label{abstract}
+
+\textbf{Objectives.} This evidence report synthesizes the results of
+evaluations of available tools for diagnosing attention
+deficit/hyperactivity disorder in adults to inform patients, clinicians,
+and policy makers.
+
+\textbf{Review methods.} Following a detailed published protocol and
+informed by a technical expert panel, we reviewed the evidence for
+diagnostic tools. In October 2024, we searched nine research databases
+from inception, research and guideline registries, reference-mined
+existing reviews and practice guidelines, and consulted with experts to
+identify evaluations that compared tools used for the diagnosis of ADHD
+in people of 18 years or older to a clinical diagnosis. The review will
+be updated during peer review. Registration CRD42025638106.
+
+\textbf{Results.} We identified 117 studies evaluating the diagnostic
+performance of self-report questionnaires, peer review questionnaires,
+neuropsychological tests, neuroimaging, electroencephalogram (EEG),
+diverse biomarkers, clinician tools, combinations of modalities, and
+tools to identify feigning ADHD.
+
+We found few direct performance comparisons between tests; the strength
+of evidence (SoE) was often insufficient for evidence statements. There
+was low SoE for lower clinical misdiagnosis rates (false positive rate
+in clinical samples) for self-report versus both clinician tools and
+neuropsychological tests, and for combinations of input versus
+neuropsychological tests alone. For sensitivity, results favored
+self-report and combinations of input over neuropsychological tests
+alone and studies found no difference between self-reports and clinician
+tools. For specificity, results favored combinations of input over
+neuropsychological tests alone, and self-reports over clinician tools.
+
+Combinations of input indicated a fair rate of clinical false positive
+rates, good sensitivity, and acceptable specificity. Self-reports showed
+good sensitivity and specificity, but often not both in the same study;
+administration time was short, but agreement with other raters was
+limited. Peer reports showed limited specificity. Neuropsychological
+tests reported substantial false positive rates in clinical samples,
+acceptable sensitivity and specificity, and short administration times.
+The small number of neuroimaging studies and EEG studies reported
+acceptable sensitivity and specificity, and short administration time.
+Clinician tools reported fair sensitivity. All results were rated low
+SoE. Results for all other key outcomes (e.g., diagnostic concordance
+between primary care clinicians and specialists) were rated
+insufficient, either due to lack of studies or wide variation in
+results.
+
+\textbf{Conclusions.} A substantial volume of research for diagnostic
+performance of tests for ADHD in adults exists, in particular for
+self-report questionnaires and neuropsychological tests. Multiple
+different diagnostic modalities have been explored and combinations of
+input appear particularly promising. Despite the volume, evidence was
+insufficient for several key outcomes. Performance is associated with
+the comparator and whether diagnostic tools aim to distinguish between
+adults with ADHD and neurotypical adults, or adults with other clinical
+conditions.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1. Introduction}\label{introduction}
+
+\subsubsection{1.1 Background}\label{background}
+
+Attention-deficit/hyperactivity disorder (ADHD) is characterized by
+persistent symptoms in the domains of inattention, hyperactivity, and
+impulsivity that often begin in childhood. Clinically significant
+symptoms, especially inattention, persist into adulthood in most
+individuals. The lifetime prevalence of ADHD is approximately 5.3\%,
+although epidemiological studies that have not required a childhood
+onset have suggested that its prevalence in adults may be as high as
+seven percent. Many adults with ADHD adopt lifestyles that help
+compensate for their symptoms, they often need to exert excess energy to
+overcome impairments. Impaired productivity because of poor time
+management, procrastination, and distractibility can limit work
+productivity and lower overall quality of life. Affected adults are
+often distressed by their inability to realize their full potential and
+by persistent symptoms of restlessness, erratic moods, and poor
+self-esteem.
+
+ADHD is most often first diagnosed in elementary or middle school age
+years or, less commonly, in high school or college when increasing
+academic demands surpass the attentional capacities of the affected
+person. ADHD can also be first diagnosed in adulthood, when impairments
+in attention, organization, and impulsivity produce recurrent problems
+with occupational, social, or family functioning. Adult diagnosis is
+often difficult because the outward manifestations most readily evident
+to others, especially hyperactivity and impulsivity, often improve
+during adolescence and no longer meet diagnostic criteria. The symptoms
+of inattention (e.g., easy distractibility, poor organization, being
+``spacey,'' avoiding and trouble completing tasks that require sustained
+attention, losing things, forgetfulness) are more subtle and may not
+reach the level of obvious functional impairment until adulthood, within
+an occupational setting or a marriage.
+
+The diagnosis of ADHD in adults, as in childhood, is complicated by the
+overlap of symptoms with other disorders. Attention and concentration,
+for example, can be impaired in persons who have depression, bipolar
+disorder, anxiety, psychosis, post-traumatic stress disorder, or
+substance abuse, or in adults who need to perform well in an
+overdemanding environment or who are highly stressed or sleep-deprived.
+Hyperactivity can be confused with anxiety-related behaviors and the
+excessive movements of tic and obsessive-compulsive disorders.
+Impulsivity is often prominent in bipolar and substance use disorders.
+The accurate diagnosis of adult ADHD is further complicated by
+individuals who seek stimulant medications to aid cognitive performance,
+especially college students and highly driven working professionals.
+Stimulants have long been known to improve sustained attention and
+reduce distractibility in healthy individuals who do not have ADHD,
+which may prompt success-oriented individuals to feign symptoms in
+diagnostic interviews, self-reports, or neuropsychological test
+assessments to obtain stimulant medications, and some students feign
+illness to receive academic accommodations, such as extended time on
+tests, tutoring services, and alternative courses that can improve their
+grades.
+
+Claims of exceptional diagnostic performance of these tools, the
+differing measures of performance, and the differing performance
+characteristics of different versions of a given tool, are controversial
+and often confusing to clinicians, patients, and other stakeholders. In
+addition, whether the performance of diagnostic tools varies with the
+characteristics of the participants with ADHD or comparator sample is
+unknown. These diagnostic challenges can complicate the accurate and
+reliable diagnosis of adult ADHD even for experienced mental health
+clinicians.
+
+Thus, despite established criteria in the Diagnostic and Statistical
+Manual of Mental Disorders, Fifth Edition (DSM-5), diagnosing ADHD in
+adults remains challenging due to the frequent absence of hyperactivity
+and impulsivity symptoms, the subtlety of inattention symptoms, the
+inaccuracy of recall in adults for their retrospective assessments of
+ADHD symptoms in childhood (required to meet DSM-5 diagnostic criteria),
+the common symptom overlap with other mental health conditions, and the
+large number of individuals, including healthy college students, who
+feign symptoms to obtain stimulant medications. Moreover, the DSM-5
+diagnostic criteria, developed primarily for children, may not be
+equally suitable for adult diagnosis, and its requirement that symptoms
+begin before age 12 has been debated. The absence of a true and
+undisputed ``gold-standard'' to verify an ADHD diagnosis, the
+variability in performance of diagnostic tools among clinicians and
+settings, and the lack of clear practice guidelines further add to
+diagnostic complexity.
+
+Furthermore, the diagnosis of ADHD in adults is often made not by mental
+health specialists, but by primary care physicians and nurse
+practitioners, who may benefit particularly from accurate diagnostic
+aids. Further, the dispensing of ADHD medications to adults has
+increased steadily over time. The accuracy of diagnosis directly affects
+the management and treatment of ADHD and may help prevent medication
+misuse, highlighting the need for effective diagnostic tools and
+guidelines. The existing standards and guidelines for diagnosing ADHD in
+adults are limited, however, and the use of diagnostic tools and
+assessments varies widely in practice. No clinical practice guidelines
+for the diagnosis of adults with ADHD have thus far been developed in
+the United States, though one is in development. Moreover, the
+diagnostic accuracy of tools and assessments used in adult ADHD
+diagnosis is unclear, and their performance may vary depending on the
+characteristics of the ADHD participants and comparator samples.
+
+\subsubsection{1.2 Purpose and Scope}\label{purpose-and-scope}
+
+This systematic review aims to provide a comprehensive and unbiased
+assessment of diagnostic tools used to diagnose ADHD in adults to inform
+patients, clinicians, and policy makers. Commissioned by the Food and
+Drug Administration (FDA), this Agency for Healthcare Research and
+Quality (AHRQ) report documents the evidence for the diagnostic
+performance of existing tools for ADHD. We explore the effects of
+setting and participant characteristics that may influence the
+diagnostic performance of available tools. A contextual question is
+which tools are frequently being used in current clinical practice.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2. Methods}\label{methods}
+
+The systematic review followed a protocol that outlines the methods in
+detail.
+
+\subsubsection{2.1 Key Questions}\label{key-questions}
+
+\textbf{Key Question 1:} What is the comparative diagnostic accuracy,
+unintended consequences, and impact of tools that can be used in the
+primary care practice setting or by specialists to diagnose ADHD among
+adults?
+
+\textbf{Key Question 1a:} How does the comparative diagnostic accuracy
+of these tools vary by clinical setting, including primary care or
+specialty clinic, or patient characteristics, including age, sex,
+cultural background, and risk factors associated with ADHD?
+
+\subsubsection{2.2 Logic Model}\label{logic-model}
+
+The logic model illustrates the pathway from diagnostic tools to
+diagnosis and subsequent treatment decisions for adults with suspected
+ADHD.
+
+\subsubsection{2.3 Search Strategy}\label{search-strategy}
+
+We conducted comprehensive searches of nine research databases from
+inception through October 2024. We also searched research and guideline
+registries, reference-mined existing reviews and practice guidelines,
+and consulted with experts to identify relevant studies.
+
+\subsubsection{2.4 Inclusion/Exclusion
+Criteria}\label{inclusionexclusion-criteria}
+
+\paragraph{Eligibility Criteria}\label{eligibility-criteria}
+
+\textbf{Inclusion Criteria:} - \textbf{Population:} Adults ≥18 years old
+receiving a diagnostic assessment for ADHD, comparator sample or
+reference - \textbf{Intervention:} Tests for ADHD: self-report
+questionnaire, peer report questionnaire, neuropsychological assessment,
+neuroimaging, EEG, diverse biomarkers, clinician tool, combination,
+other (e.g., feigning assessment) - \textbf{Comparator:} Tests (as
+listed in the intervention) Standardized clinical diagnosis -
+\textbf{Outcomes:} Diagnostic accuracy (sensitivity, specificity,
+clinical misdiagnosis rate, positive predictive value, negative
+predictive value), adverse events, administration time, inter-rater
+reliability, costs, diagnostic concordance (primary care vs.~specialist)
+- \textbf{Timing:} Diagnosis completed before treatment is initiated -
+\textbf{Setting:} Primary or specialty care settings, including
+telehealth - \textbf{Study Design:} Diagnostic accuracy studies
+
+\textbf{Exclusion Criteria:} - Studies of populations \textless18 years
+old at the time of diagnosis - Diagnosis for nonclinical or not research
+purposes - Editorials, nonsystematic reviews, letters, case series, case
+reports, pre-post studies - Systematic reviews were not eligible for
+inclusion but were retained for reference mining
+
+\paragraph{2.4.1 Screening Process}\label{screening-process}
+
+We used an online database designed for systematic reviews to screen the
+literature search output. The team designed detailed citation and full
+text screening forms to ensure a transparent, consistent, and
+unambiguous approach. All citations were screened by two independent
+literature reviewers. Citations found to be potentially relevant by at
+least one reviewer were obtained as full text. All citations were also
+screened by a DistillerSR software machine learning algorithm trained by
+the human reviewers to ensure that no relevant citation was missed.
+
+\subsubsection{2.5 Data Extraction and
+Abstraction}\label{data-extraction-and-abstraction}
+
+We captured detailed information about eligible studies. One literature
+reviewer extracted data and categorized information where relevant, and
+an experienced methodologist checked the data for accuracy and
+completeness. The data abstraction documented the targeted population
+and characteristics of all included participants (participants with ADHD
+and those without). We documented the clinical setting, method of
+establishing the reference standard (a clinical ADHD diagnosis), and
+diagnostic tool characteristics (format, name of the tool, employed cut
+offs, use of a training and validation set).
+
+\subsubsection{2.6 Risk of Bias
+Assessment}\label{risk-of-bias-assessment}
+
+The critical appraisal for individual studies applied criteria
+consistent with QUADAS 2. QUADAS-2 evaluates four domains:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Patient selection:} Whether the selection of patients could
+  have introduced bias
+\item
+  \textbf{Index test:} Whether the conduct or interpretation of the test
+  could have introduced bias
+\item
+  \textbf{Reference standard:} Whether the reference standard, its
+  conduct, or its interpretation may have introduced bias
+\item
+  \textbf{Flow and timing:} Whether the conduct of the study may have
+  introduced bias
+\end{itemize}
+
+\subsubsection{2.7 Assessing
+Applicability}\label{assessing-applicability}
+
+Results are based on the international literature and applicability
+ratings provided assessments regarding the generalizability of samples,
+settings, and tool results for U.S. clinical practice.
+
+\subsubsection{2.8 Data Synthesis and
+Analysis}\label{data-synthesis-and-analysis}
+
+Data synthesis followed standard systematic review methods. We attempted
+meta-analysis where appropriate, considering clinical and methodological
+heterogeneity.
+
+\subsubsection{2.9 Grading the Strength of the Body of
+Evidence}\label{grading-the-strength-of-the-body-of-evidence}
+
+We assessed the strength of evidence for key outcomes using established
+criteria considering study limitations, directness, consistency,
+precision, and reporting bias.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3. Results}\label{results}
+
+\subsubsection{3.1 Results of Literature
+Search}\label{results-of-literature-search}
+
+We identified 117 studies evaluating the diagnostic performance of tools
+for ADHD diagnosis in adults.
+
+\subsubsection{3.2 Results of Key Question 1: Comparative Diagnostic
+Accuracy}\label{results-of-key-question-1-comparative-diagnostic-accuracy}
+
+\paragraph{3.2.1 Combination}\label{combination}
+
+Studies evaluating combinations of diagnostic tools showed promising
+results. Combinations of input indicated a fair rate of clinical false
+positive rates, good sensitivity, and acceptable specificity.
+
+\paragraph{3.2.2 Self-Report
+Questionnaires}\label{self-report-questionnaires}
+
+Self-report questionnaires were the most commonly evaluated diagnostic
+tools. They showed good sensitivity and specificity, though often not
+both in the same study. Administration time was typically short (10-20
+minutes), but agreement with other raters was limited.
+
+\paragraph{3.2.3 Peer Report
+Questionnaires}\label{peer-report-questionnaires}
+
+Peer report questionnaires showed limited specificity. Inter-rater
+reliability varied substantially across studies.
+
+\paragraph{3.2.4 Neuropsychological
+Assessment}\label{neuropsychological-assessment}
+
+Neuropsychological tests reported substantial false positive rates in
+clinical samples, with acceptable sensitivity and specificity overall.
+Administration times were typically around 20 minutes.
+
+\paragraph{3.2.5 Neuroimaging}\label{neuroimaging}
+
+Five studies evaluated neuroimaging techniques including SPECT, MRI, and
+functional MRI. Clinical misdiagnosis rates varied from 3\% to 24\%.
+Reported sensitivity ranged from 54\% to 100\%, with most studies
+reporting acceptable specificity.
+
+\paragraph{3.2.6 EEG}\label{eeg}
+
+Twelve studies evaluated EEG data for distinguishing ADHD from other
+conditions. Only one study reported on misdiagnosis in a clinical sample
+(3.8\% false positive rate). Reported sensitivity ranged from 67\% to
+100\%, with generally good specificity.
+
+\paragraph{3.2.7 Biomarker}\label{biomarker}
+
+Five studies evaluated various biomarkers including genetic markers, eye
+tracking, blood oxidative status, physiological data from wearables, and
+motor function assessments. Results varied widely with no consistent
+patterns.
+
+\paragraph{3.2.8 Clinician Tool}\label{clinician-tool}
+
+Three studies reported on clinician interviews or questionnaires. These
+tools generally showed fair sensitivity but variable specificity.
+
+\paragraph{3.2.9 Key Question 1a: Variation by Setting and Patient
+Characteristics}\label{key-question-1a-variation-by-setting-and-patient-characteristics}
+
+Evidence was insufficient to determine how diagnostic accuracy varies by
+clinical setting or patient characteristics due to limited comparative
+data.
+
+\paragraph{3.2.10 Key Question 1 Summary of
+Findings}\label{key-question-1-summary-of-findings}
+
+The evidence suggests that combinations of diagnostic tools may offer
+the best overall performance. Self-report questionnaires are widely
+studied but show variable performance. Neuropsychological tests have
+acceptable performance but substantial false positive rates in clinical
+samples. The evidence for newer modalities like neuroimaging and EEG is
+limited but shows promise.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4. Discussion}\label{discussion}
+
+\subsubsection{4.1 Comparative Diagnostic Performance of
+Tools}\label{comparative-diagnostic-performance-of-tools}
+
+\paragraph{4.1.1 Measures Reported for Diagnostic
+Performance}\label{measures-reported-for-diagnostic-performance}
+
+Studies used various measures of diagnostic performance, making direct
+comparisons challenging. The most commonly reported measures were
+sensitivity and specificity, though clinical misdiagnosis rates (false
+positive rates in clinical samples) may be more clinically relevant.
+
+\paragraph{4.1.2 The Importance of the Comparator
+Sample}\label{the-importance-of-the-comparator-sample}
+
+Diagnostic performance varied substantially depending on whether the
+comparator group consisted of neurotypical adults or adults with other
+clinical conditions. Tools that perform well in distinguishing ADHD from
+neurotypical development may perform poorly when distinguishing ADHD
+from other psychiatric conditions.
+
+\paragraph{4.1.3 Rating Scales}\label{rating-scales}
+
+Self-report and peer-report rating scales are the most extensively
+studied diagnostic tools. While they offer practical advantages
+including brief administration time and low cost, their performance
+varies substantially across studies and settings.
+
+\paragraph{4.1.4 Neuropsychological
+Tests}\label{neuropsychological-tests}
+
+Neuropsychological tests provide objective measures of cognitive
+function but show substantial false positive rates in clinical samples,
+limiting their utility as standalone diagnostic tools.
+
+\paragraph{4.1.5 Other Diagnostic Tools}\label{other-diagnostic-tools}
+
+Emerging diagnostic modalities including neuroimaging, EEG, and various
+biomarkers show promise but require further validation in diverse
+clinical populations.
+
+\subsubsection{4.2 Direct Comparisons of Diagnostic
+Performance}\label{direct-comparisons-of-diagnostic-performance}
+
+Few studies directly compared different diagnostic tools within the same
+population. The limited comparative evidence suggests that combinations
+of tools outperform individual tools, and self-report questionnaires may
+have lower false positive rates than neuropsychological tests in
+clinical samples.
+
+\subsubsection{4.3 Implications}\label{implications}
+
+The findings have several important implications for clinical practice:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  No single diagnostic tool demonstrates sufficient accuracy to serve as
+  a standalone diagnostic method for adult ADHD
+\item
+  Combinations of diagnostic tools appear to offer superior performance
+  compared to individual tools
+\item
+  The choice of diagnostic tools should consider the clinical context,
+  particularly whether the goal is to distinguish ADHD from neurotypical
+  development or from other psychiatric conditions
+\item
+  Standardization of diagnostic approaches and validation in diverse
+  clinical populations is needed
+\end{enumerate}
+
+\subsubsection{4.4 Strengths, Limitations, and
+Applicability}\label{strengths-limitations-and-applicability}
+
+\textbf{Strengths:} - Comprehensive search strategy - Systematic
+assessment of risk of bias and applicability - Inclusion of diverse
+diagnostic modalities
+
+\textbf{Limitations:} - Heterogeneity in study populations, comparators,
+and outcome measures - Limited head-to-head comparisons of diagnostic
+tools - Variation in reference standards used across studies
+
+\textbf{Applicability:} - Results are broadly applicable to U.S.
+clinical practice - However, many tools evaluated in research settings
+may not be readily available in routine clinical practice
+
+\subsubsection{4.5 Next Steps}\label{next-steps}
+
+Future research priorities include: 1. Direct comparison studies of
+diagnostic tools in the same populations 2. Validation of diagnostic
+tools in primary care settings 3. Development and validation of
+diagnostic algorithms that integrate multiple tools 4. Studies examining
+the impact of diagnostic tools on clinical outcomes and treatment
+decisions 5. Evaluation of diagnostic tools in diverse populations
+including different age groups, cultural backgrounds, and comorbidity
+profiles
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{References}\label{references}
+
+{[}References section would include the full bibliography - not
+extracted in this version as requested to focus on main text{]}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Abbreviations and
+Acronyms}\label{abbreviations-and-acronyms}
+
+\begin{itemize}
+\tightlist
+\item
+  ADHD: Attention-Deficit/Hyperactivity Disorder
+\item
+  AHRQ: Agency for Healthcare Research and Quality
+\item
+  AUC: Area Under the Curve
+\item
+  DSM-5: Diagnostic and Statistical Manual of Mental Disorders, Fifth
+  Edition
+\item
+  EEG: Electroencephalogram
+\item
+  EPC: Evidence-based Practice Center
+\item
+  FDA: Food and Drug Administration
+\item
+  MRI: Magnetic Resonance Imaging
+\item
+  SPECT: Single-Photon Emission Computed Tomography
+\item
+  SoE: Strength of Evidence
+\end{itemize}
+
+{{< appendix >}}
+
+\section{Supplemental Figures}\label{supplemental-figures}
+
+The section numbering will be changed to ``A.1.1'' in the appendix. The
+second section in the appendix will be ``B''. On the other hand, the
+figure numbering will be reset to ``A.1'', ``A.2'' so that it is clear
+that these figures are part of the appendix. The ``A'' stands for the
+``Appendix'', not the section numbering.
+
+\newpage{}
+
+
+
+
+\end{document}

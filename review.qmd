@@ -1,0 +1,263 @@
+---
+title: "Diagnosis of Attention-Deficit/Hyperactivity Disorder in Adults: A Systematic Review"
+---
+
+## Comparative Effectiveness Review
+
+**Number xx**
+
+**Prepared for:**  
+Agency for Healthcare Research and Quality  
+U.S. Department of Health and Human Services  
+5600 Fishers Lane  
+Rockville, MD 20857  
+www.ahrq.gov
+
+**Contract No.** [to be inserted in the final report]
+
+**Prepared by:** [to be inserted in the final report]
+
+**Investigators:** [to be inserted in the final report]
+
+**AHRQ Publication No.** xx-EHCxxx
+
+---
+
+## Abstract
+
+**Objectives.** This evidence report synthesizes the results of evaluations of available tools for diagnosing attention deficit/hyperactivity disorder in adults to inform patients, clinicians, and policy makers.
+
+**Review methods.** Following a detailed published protocol and informed by a technical expert panel, we reviewed the evidence for diagnostic tools. In October 2024, we searched nine research databases from inception, research and guideline registries, reference-mined existing reviews and practice guidelines, and consulted with experts to identify evaluations that compared tools used for the diagnosis of ADHD in people of 18 years or older to a clinical diagnosis. The review will be updated during peer review. Registration CRD42025638106.
+
+**Results.** We identified 117 studies evaluating the diagnostic performance of self-report questionnaires, peer review questionnaires, neuropsychological tests, neuroimaging, electroencephalogram (EEG), diverse biomarkers, clinician tools, combinations of modalities, and tools to identify feigning ADHD.
+
+We found few direct performance comparisons between tests; the strength of evidence (SoE) was often insufficient for evidence statements. There was low SoE for lower clinical misdiagnosis rates (false positive rate in clinical samples) for self-report versus both clinician tools and neuropsychological tests, and for combinations of input versus neuropsychological tests alone. For sensitivity, results favored self-report and combinations of input over neuropsychological tests alone and studies found no difference between self-reports and clinician tools. For specificity, results favored combinations of input over neuropsychological tests alone, and self-reports over clinician tools.
+
+Combinations of input indicated a fair rate of clinical false positive rates, good sensitivity, and acceptable specificity. Self-reports showed good sensitivity and specificity, but often not both in the same study; administration time was short, but agreement with other raters was limited. Peer reports showed limited specificity. Neuropsychological tests reported substantial false positive rates in clinical samples, acceptable sensitivity and specificity, and short administration times. The small number of neuroimaging studies and EEG studies reported acceptable sensitivity and specificity, and short administration time. Clinician tools reported fair sensitivity. All results were rated low SoE. Results for all other key outcomes (e.g., diagnostic concordance between primary care clinicians and specialists) were rated insufficient, either due to lack of studies or wide variation in results.
+
+**Conclusions.** A substantial volume of research for diagnostic performance of tests for ADHD in adults exists, in particular for self-report questionnaires and neuropsychological tests. Multiple different diagnostic modalities have been explored and combinations of input appear particularly promising. Despite the volume, evidence was insufficient for several key outcomes. Performance is associated with the comparator and whether diagnostic tools aim to distinguish between adults with ADHD and neurotypical adults, or adults with other clinical conditions.
+
+---
+
+## 1. Introduction
+
+### 1.1 Background
+
+Attention-deficit/hyperactivity disorder (ADHD) is characterized by persistent symptoms in the domains of inattention, hyperactivity, and impulsivity that often begin in childhood. Clinically significant symptoms, especially inattention, persist into adulthood in most individuals. The lifetime prevalence of ADHD is approximately 5.3%, although epidemiological studies that have not required a childhood onset have suggested that its prevalence in adults may be as high as seven percent. Many adults with ADHD adopt lifestyles that help compensate for their symptoms, they often need to exert excess energy to overcome impairments. Impaired productivity because of poor time management, procrastination, and distractibility can limit work productivity and lower overall quality of life. Affected adults are often distressed by their inability to realize their full potential and by persistent symptoms of restlessness, erratic moods, and poor self-esteem.
+
+ADHD is most often first diagnosed in elementary or middle school age years or, less commonly, in high school or college when increasing academic demands surpass the attentional capacities of the affected person. ADHD can also be first diagnosed in adulthood, when impairments in attention, organization, and impulsivity produce recurrent problems with occupational, social, or family functioning. Adult diagnosis is often difficult because the outward manifestations most readily evident to others, especially hyperactivity and impulsivity, often improve during adolescence and no longer meet diagnostic criteria. The symptoms of inattention (e.g., easy distractibility, poor organization, being "spacey," avoiding and trouble completing tasks that require sustained attention, losing things, forgetfulness) are more subtle and may not reach the level of obvious functional impairment until adulthood, within an occupational setting or a marriage.
+
+The diagnosis of ADHD in adults, as in childhood, is complicated by the overlap of symptoms with other disorders. Attention and concentration, for example, can be impaired in persons who have depression, bipolar disorder, anxiety, psychosis, post-traumatic stress disorder, or substance abuse, or in adults who need to perform well in an overdemanding environment or who are highly stressed or sleep-deprived. Hyperactivity can be confused with anxiety-related behaviors and the excessive movements of tic and obsessive-compulsive disorders. Impulsivity is often prominent in bipolar and substance use disorders. The accurate diagnosis of adult ADHD is further complicated by individuals who seek stimulant medications to aid cognitive performance, especially college students and highly driven working professionals. Stimulants have long been known to improve sustained attention and reduce distractibility in healthy individuals who do not have ADHD, which may prompt success-oriented individuals to feign symptoms in diagnostic interviews, self-reports, or neuropsychological test assessments to obtain stimulant medications, and some students feign illness to receive academic accommodations, such as extended time on tests, tutoring services, and alternative courses that can improve their grades.
+
+Claims of exceptional diagnostic performance of these tools, the differing measures of performance, and the differing performance characteristics of different versions of a given tool, are controversial and often confusing to clinicians, patients, and other stakeholders. In addition, whether the performance of diagnostic tools varies with the characteristics of the participants with ADHD or comparator sample is unknown. These diagnostic challenges can complicate the accurate and reliable diagnosis of adult ADHD even for experienced mental health clinicians.
+
+Thus, despite established criteria in the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5), diagnosing ADHD in adults remains challenging due to the frequent absence of hyperactivity and impulsivity symptoms, the subtlety of inattention symptoms, the inaccuracy of recall in adults for their retrospective assessments of ADHD symptoms in childhood (required to meet DSM-5 diagnostic criteria), the common symptom overlap with other mental health conditions, and the large number of individuals, including healthy college students, who feign symptoms to obtain stimulant medications. Moreover, the DSM-5 diagnostic criteria, developed primarily for children, may not be equally suitable for adult diagnosis, and its requirement that symptoms begin before age 12 has been debated. The absence of a true and undisputed "gold-standard" to verify an ADHD diagnosis, the variability in performance of diagnostic tools among clinicians and settings, and the lack of clear practice guidelines further add to diagnostic complexity.
+
+Furthermore, the diagnosis of ADHD in adults is often made not by mental health specialists, but by primary care physicians and nurse practitioners, who may benefit particularly from accurate diagnostic aids. Further, the dispensing of ADHD medications to adults has increased steadily over time. The accuracy of diagnosis directly affects the management and treatment of ADHD and may help prevent medication misuse, highlighting the need for effective diagnostic tools and guidelines. The existing standards and guidelines for diagnosing ADHD in adults are limited, however, and the use of diagnostic tools and assessments varies widely in practice. No clinical practice guidelines for the diagnosis of adults with ADHD have thus far been developed in the United States, though one is in development. Moreover, the diagnostic accuracy of tools and assessments used in adult ADHD diagnosis is unclear, and their performance may vary depending on the characteristics of the ADHD participants and comparator samples.
+
+### 1.2 Purpose and Scope
+
+This systematic review aims to provide a comprehensive and unbiased assessment of diagnostic tools used to diagnose ADHD in adults to inform patients, clinicians, and policy makers. Commissioned by the Food and Drug Administration (FDA), this Agency for Healthcare Research and Quality (AHRQ) report documents the evidence for the diagnostic performance of existing tools for ADHD. We explore the effects of setting and participant characteristics that may influence the diagnostic performance of available tools. A contextual question is which tools are frequently being used in current clinical practice.
+
+---
+
+## 2. Methods
+
+The systematic review followed a protocol that outlines the methods in detail.
+
+### 2.1 Key Questions
+
+**Key Question 1:** What is the comparative diagnostic accuracy, unintended consequences, and impact of tools that can be used in the primary care practice setting or by specialists to diagnose ADHD among adults?
+
+**Key Question 1a:** How does the comparative diagnostic accuracy of these tools vary by clinical setting, including primary care or specialty clinic, or patient characteristics, including age, sex, cultural background, and risk factors associated with ADHD?
+
+### 2.2 Logic Model
+
+The logic model illustrates the pathway from diagnostic tools to diagnosis and subsequent treatment decisions for adults with suspected ADHD.
+
+### 2.3 Search Strategy
+
+We conducted comprehensive searches of nine research databases from inception through October 2024. We also searched research and guideline registries, reference-mined existing reviews and practice guidelines, and consulted with experts to identify relevant studies.
+
+### 2.4 Inclusion/Exclusion Criteria
+
+#### Eligibility Criteria
+
+**Inclusion Criteria:**
+- **Population:** Adults ≥18 years old receiving a diagnostic assessment for ADHD, comparator sample or reference
+- **Intervention:** Tests for ADHD: self-report questionnaire, peer report questionnaire, neuropsychological assessment, neuroimaging, EEG, diverse biomarkers, clinician tool, combination, other (e.g., feigning assessment)
+- **Comparator:** Tests (as listed in the intervention) Standardized clinical diagnosis
+- **Outcomes:** Diagnostic accuracy (sensitivity, specificity, clinical misdiagnosis rate, positive predictive value, negative predictive value), adverse events, administration time, inter-rater reliability, costs, diagnostic concordance (primary care vs. specialist)
+- **Timing:** Diagnosis completed before treatment is initiated
+- **Setting:** Primary or specialty care settings, including telehealth
+- **Study Design:** Diagnostic accuracy studies
+
+**Exclusion Criteria:**
+- Studies of populations <18 years old at the time of diagnosis
+- Diagnosis for nonclinical or not research purposes
+- Editorials, nonsystematic reviews, letters, case series, case reports, pre-post studies
+- Systematic reviews were not eligible for inclusion but were retained for reference mining
+
+#### 2.4.1 Screening Process
+
+We used an online database designed for systematic reviews to screen the literature search output. The team designed detailed citation and full text screening forms to ensure a transparent, consistent, and unambiguous approach. All citations were screened by two independent literature reviewers. Citations found to be potentially relevant by at least one reviewer were obtained as full text. All citations were also screened by a DistillerSR software machine learning algorithm trained by the human reviewers to ensure that no relevant citation was missed.
+
+### 2.5 Data Extraction and Abstraction
+
+We captured detailed information about eligible studies. One literature reviewer extracted data and categorized information where relevant, and an experienced methodologist checked the data for accuracy and completeness. The data abstraction documented the targeted population and characteristics of all included participants (participants with ADHD and those without). We documented the clinical setting, method of establishing the reference standard (a clinical ADHD diagnosis), and diagnostic tool characteristics (format, name of the tool, employed cut offs, use of a training and validation set).
+
+### 2.6 Risk of Bias Assessment
+
+The critical appraisal for individual studies applied criteria consistent with QUADAS 2. QUADAS-2 evaluates four domains:
+
+- **Patient selection:** Whether the selection of patients could have introduced bias
+- **Index test:** Whether the conduct or interpretation of the test could have introduced bias
+- **Reference standard:** Whether the reference standard, its conduct, or its interpretation may have introduced bias
+- **Flow and timing:** Whether the conduct of the study may have introduced bias
+
+### 2.7 Assessing Applicability
+
+Results are based on the international literature and applicability ratings provided assessments regarding the generalizability of samples, settings, and tool results for U.S. clinical practice.
+
+### 2.8 Data Synthesis and Analysis
+
+Data synthesis followed standard systematic review methods. We attempted meta-analysis where appropriate, considering clinical and methodological heterogeneity.
+
+### 2.9 Grading the Strength of the Body of Evidence
+
+We assessed the strength of evidence for key outcomes using established criteria considering study limitations, directness, consistency, precision, and reporting bias.
+
+---
+
+## 3. Results
+
+### 3.1 Results of Literature Search
+
+We identified 117 studies evaluating the diagnostic performance of tools for ADHD diagnosis in adults.
+
+### 3.2 Results of Key Question 1: Comparative Diagnostic Accuracy
+
+#### 3.2.1 Combination
+
+Studies evaluating combinations of diagnostic tools showed promising results. Combinations of input indicated a fair rate of clinical false positive rates, good sensitivity, and acceptable specificity.
+
+#### 3.2.2 Self-Report Questionnaires
+
+Self-report questionnaires were the most commonly evaluated diagnostic tools. They showed good sensitivity and specificity, though often not both in the same study. Administration time was typically short (10-20 minutes), but agreement with other raters was limited.
+
+#### 3.2.3 Peer Report Questionnaires
+
+Peer report questionnaires showed limited specificity. Inter-rater reliability varied substantially across studies.
+
+#### 3.2.4 Neuropsychological Assessment
+
+Neuropsychological tests reported substantial false positive rates in clinical samples, with acceptable sensitivity and specificity overall. Administration times were typically around 20 minutes.
+
+#### 3.2.5 Neuroimaging
+
+Five studies evaluated neuroimaging techniques including SPECT, MRI, and functional MRI. Clinical misdiagnosis rates varied from 3% to 24%. Reported sensitivity ranged from 54% to 100%, with most studies reporting acceptable specificity.
+
+#### 3.2.6 EEG
+
+Twelve studies evaluated EEG data for distinguishing ADHD from other conditions. Only one study reported on misdiagnosis in a clinical sample (3.8% false positive rate). Reported sensitivity ranged from 67% to 100%, with generally good specificity.
+
+#### 3.2.7 Biomarker
+
+Five studies evaluated various biomarkers including genetic markers, eye tracking, blood oxidative status, physiological data from wearables, and motor function assessments. Results varied widely with no consistent patterns.
+
+#### 3.2.8 Clinician Tool
+
+Three studies reported on clinician interviews or questionnaires. These tools generally showed fair sensitivity but variable specificity.
+
+#### 3.2.9 Key Question 1a: Variation by Setting and Patient Characteristics
+
+Evidence was insufficient to determine how diagnostic accuracy varies by clinical setting or patient characteristics due to limited comparative data.
+
+#### 3.2.10 Key Question 1 Summary of Findings
+
+The evidence suggests that combinations of diagnostic tools may offer the best overall performance. Self-report questionnaires are widely studied but show variable performance. Neuropsychological tests have acceptable performance but substantial false positive rates in clinical samples. The evidence for newer modalities like neuroimaging and EEG is limited but shows promise.
+
+---
+
+## 4. Discussion
+
+### 4.1 Comparative Diagnostic Performance of Tools
+
+#### 4.1.1 Measures Reported for Diagnostic Performance
+
+Studies used various measures of diagnostic performance, making direct comparisons challenging. The most commonly reported measures were sensitivity and specificity, though clinical misdiagnosis rates (false positive rates in clinical samples) may be more clinically relevant.
+
+#### 4.1.2 The Importance of the Comparator Sample
+
+Diagnostic performance varied substantially depending on whether the comparator group consisted of neurotypical adults or adults with other clinical conditions. Tools that perform well in distinguishing ADHD from neurotypical development may perform poorly when distinguishing ADHD from other psychiatric conditions.
+
+#### 4.1.3 Rating Scales
+
+Self-report and peer-report rating scales are the most extensively studied diagnostic tools. While they offer practical advantages including brief administration time and low cost, their performance varies substantially across studies and settings.
+
+#### 4.1.4 Neuropsychological Tests
+
+Neuropsychological tests provide objective measures of cognitive function but show substantial false positive rates in clinical samples, limiting their utility as standalone diagnostic tools.
+
+#### 4.1.5 Other Diagnostic Tools
+
+Emerging diagnostic modalities including neuroimaging, EEG, and various biomarkers show promise but require further validation in diverse clinical populations.
+
+### 4.2 Direct Comparisons of Diagnostic Performance
+
+Few studies directly compared different diagnostic tools within the same population. The limited comparative evidence suggests that combinations of tools outperform individual tools, and self-report questionnaires may have lower false positive rates than neuropsychological tests in clinical samples.
+
+### 4.3 Implications
+
+The findings have several important implications for clinical practice:
+
+1. No single diagnostic tool demonstrates sufficient accuracy to serve as a standalone diagnostic method for adult ADHD
+2. Combinations of diagnostic tools appear to offer superior performance compared to individual tools
+3. The choice of diagnostic tools should consider the clinical context, particularly whether the goal is to distinguish ADHD from neurotypical development or from other psychiatric conditions
+4. Standardization of diagnostic approaches and validation in diverse clinical populations is needed
+
+### 4.4 Strengths, Limitations, and Applicability
+
+**Strengths:**
+- Comprehensive search strategy
+- Systematic assessment of risk of bias and applicability
+- Inclusion of diverse diagnostic modalities
+
+**Limitations:**
+- Heterogeneity in study populations, comparators, and outcome measures
+- Limited head-to-head comparisons of diagnostic tools
+- Variation in reference standards used across studies
+
+**Applicability:**
+- Results are broadly applicable to U.S. clinical practice
+- However, many tools evaluated in research settings may not be readily available in routine clinical practice
+
+### 4.5 Next Steps
+
+Future research priorities include:
+1. Direct comparison studies of diagnostic tools in the same populations
+2. Validation of diagnostic tools in primary care settings
+3. Development and validation of diagnostic algorithms that integrate multiple tools
+4. Studies examining the impact of diagnostic tools on clinical outcomes and treatment decisions
+5. Evaluation of diagnostic tools in diverse populations including different age groups, cultural backgrounds, and comorbidity profiles
+
+---
+
+## References
+
+[References section would include the full bibliography - not extracted in this version as requested to focus on main text]
+
+---
+
+## Abbreviations and Acronyms
+
+- ADHD: Attention-Deficit/Hyperactivity Disorder
+- AHRQ: Agency for Healthcare Research and Quality
+- AUC: Area Under the Curve
+- DSM-5: Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition
+- EEG: Electroencephalogram
+- EPC: Evidence-based Practice Center
+- FDA: Food and Drug Administration
+- MRI: Magnetic Resonance Imaging
+- SPECT: Single-Photon Emission Computed Tomography
+- SoE: Strength of Evidence
