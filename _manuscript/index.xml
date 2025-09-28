@@ -5723,9 +5723,42 @@ Adults</article-title>
   </body>
   <back>
 </back>
-  <!-- (F2ED4C6E)[nb-1]:/Users/joey/annals-of-medicine/review.qmd -->
-  <!-- (F2ED4C6E)[nb-2]:/Users/joey/annals-of-medicine/extract.md -->
-  <!-- (F2ED4C6E)[nb-3]:/Users/joey/annals-of-medicine/extract.qmd -->
-  <!-- (F2ED4C6E)[nb-4]:/Users/joey/annals-of-medicine/static/fonts/Libertinus-7.051/CONTRIBUTING.md -->
-  <!-- (F2ED4C6E)[nb-5]:/Users/joey/annals-of-medicine/review.md -->
+  <sub-article article-type="notebook" id="nb-3-nb-1">
+    <front-stub>
+</front-stub>
+    <body>
+      <sec id="contributing-nb-1">
+        <title>Contributing</title>
+        <p>The source files are under the <monospace>sources</monospace>
+  subdirectory. The <monospace>.sfd</monospace> files are FontForge
+  source font format and should be edited with
+  <ext-link ext-link-type="uri" xlink:href="https://fontforge.org">FontForge</ext-link>.
+  The <monospace>.fea</monospace> files are
+  <ext-link ext-link-type="uri" xlink:href="https://adobe-type-tools.github.io/afdko/OpenTypeFeatureFileSpecification.html">OpenType
+  feature files</ext-link> and should be edited by a plain text
+  editor.</p>
+        <p>To build the fonts locally, you will need to setup
+  <ext-link ext-link-type="uri" xlink:href="https://github.com/theleagueof/fontship">Fontship</ext-link>.
+  Several methods are available for installation including a simple
+  one-liner with no installation
+  <ext-link ext-link-type="uri" xlink:href="https://github.com/theleagueof/fontship#docker-setup">using
+  Docker</ext-link>. One Fontship is setup, regenerate the fonts at any
+  time using:</p>
+        <preformat>fontship make</preformat>
+        <p>A remote CI runner will also automatically run
+  <monospace>fontship</monospace> for all PRs on this repository, so in
+  some cases you may not need to install it at all. You can even
+  download and review the fonts it builds after each push. Hovever this
+  is cumbersome for actual font development and we recomend checking
+  your work with local feedback.</p>
+        <p>Note that FontForge adds unnecessary clutter to its source files on
+  each save that <bold>must</bold> be removed before committing. After
+  modifying the <monospace>.sfd</monospace> files, and before committing
+  the changes, you can automatically clean them up with:</p>
+        <preformat>fontship make normalize</preformat>
+      </sec>
+    </body>
+    <back>
+</back>
+  </sub-article>
 </article>
