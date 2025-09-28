@@ -1,6 +1,7 @@
 ---
-title: Diagnosis of Attention-Deficit/Hyperactivity Disorder in Adults
-subtitle: A Systematic Review
+title: "Diagnosis of Attention-Deficit/Hyperactivity Disorder in Adults: A Systematic Review"
+subtitle: "Comparative Effectiveness Review Number xx"
+# date: today
 authors:
   - name: Joey Trampush
     affiliation: USC
@@ -8,22 +9,18 @@ authors:
     corresponding: true
   - name: Brad Peterson
     affiliation: CHLA
+abstract: |
+  **Objectives.** This evidence report synthesizes the results of evaluations of available tools for diagnosing attention deficit/hyperactivity disorder in adults to inform patients, clinicians, and policy makers.
+  
+  **Review methods.** Following a detailed published protocol and informed by a technical expert panel, we reviewed the evidence for diagnostic tools. In October 2024, we searched nine research databases from inception, research and guideline registries, reference-mined existing reviews and practice guidelines, and consulted with experts to identify evaluations that compared tools used for the diagnosis of ADHD in people of 18 years or older to a clinical diagnosis. The review will be updated during peer review. Registration CRD42025638106.
+  
+  **Results.** We identified 117 studies evaluating the diagnostic performance of self-report questionnaires, peer review questionnaires, neuropsychological tests, neuroimaging, electroencephalogram (EEG), diverse biomarkers, clinician tools, combinations of modalities, and tools to identify feigning ADHD. We found few direct performance comparisons between tests; the strength of evidence (SoE) was often insufficient for evidence statements. There was low SoE for lower clinical misdiagnosis rates (false positive rate in clinical samples) for self-report versus both clinician tools and neuropsychological tests, and for combinations of input versus neuropsychological tests alone. For sensitivity, results favored self-report and combinations of input over neuropsychological tests alone and studies found no difference between self-reports and clinician tools. For specificity, results favored combinations of input over neuropsychological tests alone, and self-reports over clinician tools.
+  
+  **Conclusions.** A substantial volume of research for diagnostic performance of tests for ADHD in adults exists, in particular for self-report questionnaires and neuropsychological tests. Multiple different diagnostic modalities have been explored and combinations of input appear particularly promising. Despite the volume, evidence was insufficient for several key outcomes. Performance is associated with the comparator and whether diagnostic tools aim to distinguish between adults with ADHD and neurotypical adults, or adults with other clinical conditions.
+
 bibliography: references.bib
 ---
 
-# Abstract
-
-**Objectives.** This evidence report synthesizes the results of evaluations of available tools for diagnosing attention deficit/hyperactivity disorder in adults to inform patients, clinicians, and policy makers.
-
-**Review methods.** Following a detailed published protocol and informed by a technical expert panel, we reviewed the evidence for diagnostic tools. In October 2024, we searched nine research databases from inception, research and guideline registries, reference-mined existing reviews and practice guidelines, and consulted with experts to identify evaluations that compared tools used for the diagnosis of ADHD in people of 18 years or older to a clinical diagnosis. The review will be updated during peer review. Registration CRD42025638106.
-
-**Results.** We identified 117 studies evaluating the diagnostic performance of self-report questionnaires, peer review questionnaires, neuropsychological tests, neuroimaging, electroencephalogram (EEG), diverse biomarkers, clinician tools, combinations of modalities, and tools to identify feigning ADHD.
-
-We found few direct performance comparisons between tests; the strength of evidence (SoE) was often insufficient for evidence statements. There was low SoE for lower clinical misdiagnosis rates (false positive rate in clinical samples) for self-report versus both clinician tools and neuropsychological tests, and for combinations of input versus neuropsychological tests alone. For sensitivity, results favored self-report and combinations of input over neuropsychological tests alone and studies found no difference between self-reports and clinician tools. For specificity, results favored combinations of input over neuropsychological tests alone, and self-reports over clinician tools.
-
-Combinations of input indicated a fair rate of clinical false positive rates, good sensitivity, and acceptable specificity. Self-reports showed good sensitivity and specificity, but often not both in the same study; administration time was short, but agreement with other raters was limited. Peer reports showed limited specificity. Neuropsychological tests reported substantial false positive rates in clinical samples, acceptable sensitivity and specificity, and short administration times. The small number of neuroimaging studies and EEG studies reported acceptable sensitivity and specificity, and short administration time. Clinician tools reported fair sensitivity. All results were rated low SoE. Results for all other key outcomes (e.g., diagnostic concordance between primary care clinicians and specialists) were rated insufficient, either due to lack of studies or wide variation in results.
-
-**Conclusions.** A substantial volume of research for diagnostic performance of tests for ADHD in adults exists, in particular for self-report questionnaires and neuropsychological tests. Multiple different diagnostic modalities have been explored and combinations of input appear particularly promising. Despite the volume, evidence was insufficient for several key outcomes. Performance is associated with the comparator and whether diagnostic tools aim to distinguish between adults with ADHD and neurotypical adults, or adults with other clinical conditions.
 
 # Introduction
 
